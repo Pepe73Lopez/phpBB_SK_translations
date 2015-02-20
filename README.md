@@ -13,7 +13,7 @@ Rozoznáva sa:
 - Téma (zoskupenie príspevkov)
 - Príspevok
 
-<a href=https://wiki.phpbb.com/Plural_Rules#Short_Example>Skloňovanie</a>je nastavené na osmičku, použité je väčšinou v hodnotách 1,2 a 3 kde sa dá a je to účelné je použitý aj prípad pre 0;
+<a href=https://wiki.phpbb.com/Plural_Rules#Short_Example>Skloňovanie</a> je nastavené na <b>Rule #8</b>, použité je väčšinou v hodnotách 1,2 a 3 kde sa dá a je to účelné je použitý aj prípad pre 0;
 
 Ďalej,
 - user = užívateľ
