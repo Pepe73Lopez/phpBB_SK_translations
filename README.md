@@ -15,15 +15,15 @@ Rozoznáva sa:
 Skloňovanie je nastavené na osmičku, použité je väčšinou v hodnotách 1,2 a 3 kde sa dá a je to účelné je použitý aj prípad pre 0;
 
 Ďalej,
-user = užívateľ
-username = užívateľské meno
-upload = odovzdávanie
-download = sťahovanie
-acp = Administrátorský panel
-mcp = Moderátorský panel
-ucp = Moje nastavenia
-  v rámci ucp sa rozoznáva:
-    manage = spravovať
+*user = užívateľ
+*username = užívateľské meno
+*upload = odovzdávanie
+*download = sťahovanie
+*acp = Administrátorský panel
+*mcp = Moderátorský panel
+*ucp = Moje nastavenia
+  **v rámci ucp sa rozoznáva:
+    **manage = spravovať
     edit = upraviť
     preferences = predvoľby
     
