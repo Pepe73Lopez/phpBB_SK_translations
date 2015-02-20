@@ -748,7 +748,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_LONG'					=> 'The value you entered is too long.',
 
-	'TOO_LONG_CONFIRM_CODE'			=> 'The confirm code you entered is too long.',
+	'TOO_LONG_CONFIRM_CODE'			=> 'Zadaný potvrdzovací kód je príliš dlhý.',
 	'TOO_LONG_DATEFORMAT'			=> 'The date format you entered is too long.',
 	'TOO_LONG_JABBER'				=> 'The Jabber account name you entered is too long.',
 	'TOO_LONG_NEW_PASSWORD'			=> 'The password you entered is too long.',
