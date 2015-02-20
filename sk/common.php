@@ -748,7 +748,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_LONG'					=> 'The value you entered is too long.',
 
-	'TOO_LONG_CONFIRM_CODE'			=> 'Zadaný potvrdzovací kód je príliš dlhý.',
+	'TOO_LONG_CONFIRM_CODE'			=> 'The confirm code you entered is too long.',
 	'TOO_LONG_DATEFORMAT'			=> 'The date format you entered is too long.',
 	'TOO_LONG_JABBER'				=> 'The Jabber account name you entered is too long.',
 	'TOO_LONG_NEW_PASSWORD'			=> 'The password you entered is too long.',
@@ -775,16 +775,16 @@ $lang = array_merge($lang, array(
 
 	'TOPIC'			=> 'Téma',
 	'TOPICS'			=> 'Témy',
-	'TOPICS_UNAPPROVED'	=> 'Uverjnenie najmenej jednej témy v tomto fóre bolo zamietnuté.',
+	'TOPICS_UNAPPROVED'	=> 'At least one topic in this forum has not been approved.',
 	'TOPIC_ICON'		=> 'Ikona pre tému',
-	'TOPIC_LOCKED'		=> 'Téma je zamknutá, nemôžete editovať príspevky ani písať nové.',
+	'TOPIC_LOCKED'		=> 'This topic is locked, you cannot edit posts or make further replies.',
 	'TOPIC_LOCKED_SHORT'=> 'Zamknutá téma',
 	'TOPIC_MOVED'		=> 'Presunutá téma',
 	'TOPIC_REVIEW'		=> 'Prehľad témy',
 	'TOPIC_TITLE'		=> 'Názov témy',
-	'TOPIC_UNAPPROVED'	=> 'Uverejnenie tejto témy bolo zamietnuté.',
-	'TOPIC_DELETED'	=> 'Táto téma bola vymazaná.',
-	'TOTAL_ATTACHMENTS'	=> 'príloha(y)',
+	'TOPIC_UNAPPROVED'	=> 'This topic has not been approved.',
+	'TOPIC_DELETED'	=> 'This topic has been deleted.',
+	'TOTAL_ATTACHMENTS'	=> 'Attachment(s)',
 	'TOTAL_LOGS'		=> array(
 		1	=> '%d záznam',
 		2	=> '%d záznamy',
@@ -795,7 +795,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d PMky',
           3	=> '%d PMiek',
 	),
-	'TOPIC_POLL'		=> 'V tejto téme je hlasovanie.',
+	'TOPIC_POLL'		=> 'This topic has a poll.',
 	'TOTAL_POSTS'		=> 'Počet príspevkov',
 	'TOTAL_POSTS_COUNT'	=> array(
 		1	=> '<strong>%d</strong> príspevok',
