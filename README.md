@@ -9,11 +9,13 @@ Lokalizácia phpBB 3.1.3 do slovenského jazyka
 Niektoré zásady použité v úvodnom branchi:
 
 Rozoznáva sa:
-- Portál (miesto kde je phpBB spustené napr. http://mojaadresafora.sk), tu všade kde sa používa "toto fórum" a myslí sa celok a nie konkrétne fórum, je použitý v preklade "tento portál"; 
-- Kategória (zoskupenie fór)
-- Fórum (zoskupenie tém)
-- Téma (zoskupenie príspevkov)
-- Príspevok
+- Board = Portál (miesto kde je phpBB spustené napr. http://mojaadresafora.sk); 
+- Category = Kategória (zoskupenie fór)
+- Forum = Fórum (zoskupenie tém)
+- Topic = Téma (zoskupenie príspevkov)
+- Post = Príspevok
+- Message = Správa
+
 
 <a href=https://wiki.phpbb.com/Plural_Rules#Short_Example>Skloňovanie</a> je nastavené na <b>Rule #8</b>, použité je väčšinou v hodnotách 1,2 a 3 kde sa dá a je to účelné je použitý aj prípad pre 0;
 
@@ -35,4 +37,5 @@ užívatelia môžu byť:
 - skrytý (s vytvoreným účtom ale skrytou identitou)
 - neregistrovaní (v acp tiež anonym)
 - novo registrovaní
+- COPPA = mladiství
   
