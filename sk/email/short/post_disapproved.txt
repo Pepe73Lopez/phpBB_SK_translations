@@ -1,10 +1,10 @@
-Subject: Uverejnenie príspevku zmietnuté - "{POST_SUBJECT}"
+Subject: Post disapproved - "{POST_SUBJECT}"
 
-Dobrý deò {USERNAME},
+Hello {USERNAME},
 
-Táto správa vám bola doruèená, pretože bolo zamietnuté uverejnenie vášho príspevku "{POST_SUBJECT}" z "{SITENAME}" zo strany administrátorov alebo moderátorov.
+You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
 
-Dôvod zamietnutia:
+The following reason was given for the disapproval:
 
 {REASON}
 
