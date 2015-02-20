@@ -132,9 +132,9 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Ste si istý?',
 	'LOGS_CURRENT_TOPIC'		=> 'Zobrazené záznamy z:',
 	'LOGIN_EXPLAIN_MCP'			=> 'Aby ste mohli moderovať toto fórum, musíte sa prihlásiť.',
-	'LOGVIEW_VIEWTOPIC'			=> 'Zobraziť témy',
+	'LOGVIEW_VIEWTOPIC'			=> 'Zobraziť tému',
 	'LOGVIEW_VIEWLOGS'			=> 'Zobraziť záznam témy',
-	'LOGVIEW_VIEWFORUM'			=> 'Zobraziť fóra',
+	'LOGVIEW_VIEWFORUM'			=> 'Zobraziť fórum',
 	'LOOKUP_ALL'				=> 'Vyhľadať všetky IP adresy',
 	'LOOKUP_IP'				=> 'Vyhľadať IP adresu',
 
