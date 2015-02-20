@@ -1,10 +1,10 @@
-Subject: Topic disapproved - "{TOPIC_TITLE}"
+Subject: Uverejnenie témy zamietnuté - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Dobrý deò {USERNAME},
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Táto správa vám bola doruèená, pretože zo strany administrátorov alebo moderátorov bolo zamietnuté uverejnenie vašej témy "{TOPIC_TITLE}" na "{SITENAME}".
 
-The following reason was given for the disapproval:
+Dôvod:
 
 {REASON}
 
