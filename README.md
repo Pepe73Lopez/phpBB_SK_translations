@@ -6,7 +6,7 @@ Lokalizácia phpBB 3.1.3 do slovenského jazyka
 
 <b>Kto chce prispieť nech pošle kontakt pridám ho ako contributora.</b>
 
-<h1>Stav prekladu:</h2>
+<h3>Stav prekladu:</h3>
 
 1. Užívateľské rozhranie - kompletné
 
