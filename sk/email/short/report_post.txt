@@ -1,13 +1,13 @@
-Subject: Post report - "{TOPIC_TITLE}"
+Subject: Sťažnosť na uverejnený príspevok - "{TOPIC_TITLE}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože the post "{POST_SUBJECT}" at "{SITENAME}" was reported.
+Táto správa vám bola doručená pretože na príspevok "{POST_SUBJECT}" na "{SITENAME}" bola odoslaná sťažnosť.
 
-If you want to view the report, click the following link:
+Odkaz na sťažnosť:
 {U_VIEW_REPORT}
 
-If you want to view the post, click the following link:
+Odkaz na príspevok:
 {U_VIEW_POST}
 
 {EMAIL_SIG}

@@ -7,7 +7,6 @@ Táto správa vám bola doručená pretože sledujete fórum "{FORUM_NAME}" na "
 {U_FORUM}
 
 Ak si viac neželáte sledovat toto fórum, môžete použiť tlačítko na ukončenie sledovania alebo použiť nasledovný link:
-
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}
