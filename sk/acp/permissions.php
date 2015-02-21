@@ -113,17 +113,17 @@ $lang = array_merge($lang, array(
 	'COPY_PERMISSIONS_FROM'					=> 'Copy permissions from',
 	'COPY_PERMISSIONS_TO'					=> 'Apply permissions to',
 
-	'CREATE_ROLE'				=> 'Create role',
-	'CREATE_ROLE_FROM'			=> 'Use settings from…',
-	'CUSTOM'					=> 'Custom…',
+	'CREATE_ROLE'				=> 'Vytvoriť sadu',
+	'CREATE_ROLE_FROM'			=> 'Použiť nastavenia z…',
+	'CUSTOM'					=> 'Vlastné…',
 
-	'DEFAULT'					=> 'Default',
-	'DELETE_ROLE'				=> 'Delete role',
+	'DEFAULT'					=> 'Východiskové',
+	'DELETE_ROLE'				=> 'Vymazať sadu',
 	'DELETE_ROLE_CONFIRM'		=> 'Are you sure you want to remove this role? Items having this role assigned will <strong>not</strong> lose their permission settings.',
 	'DISPLAY_ROLE_ITEMS'		=> 'View items using this role',
 
-	'EDIT_PERMISSIONS'			=> 'Edit permissions',
-	'EDIT_ROLE'					=> 'Edit role',
+	'EDIT_PERMISSIONS'			=> 'Upraviť oprávnenia',
+	'EDIT_ROLE'					=> 'Upraviť sadu',
 
 	'GROUPS_NOT_ASSIGNED'		=> 'No group assigned to this role',
 
