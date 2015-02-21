@@ -72,8 +72,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_RECENT_EXPLAIN'			=> 'If set to yes topics made to this forum will be shown in the active topics list.',
 	'ENABLE_TOPIC_ICONS'			=> 'Enable topic icons',
 
-	'FORUM_ADMIN'						=> 'Forum administration',
-	'FORUM_ADMIN_EXPLAIN'				=> 'In phpBB3 everything is forum based. A category is just a special type of forum. Each forum can have an unlimited number of sub-forums and you can determine whether each may be posted to or not (i.e. whether it acts like an old category). Here you can add, edit, delete, lock, unlock individual forums as well as set certain additional controls. If your posts and topics have got out of sync you can also resynchronise a forum. <strong>You need to copy or set appropriate permissions for newly created forums to have them displayed.</strong>',
+	'FORUM_ADMIN'						=> 'Spravovanie Kategórií a Fór',
+	'FORUM_ADMIN_EXPLAIN'				=> 'V phpBB3 je všetko založené na fórach. Kategória je len špeciálnym typom fóra. Každé fórum môže mať nekonečný počet subfór a vy môžete rozhodnúť o tom, do ktorého budú vkladané témy s príspevkami a do ktorého nie (tzn., či sa bude chovať ako po starom kategória). Tu môžete pridávať, upravovať, mazať, zamykať, odomykať jednotlivé fóra, ako aj nastavovať určité ďalšie ovládacie prvky. Ak sa rosypala synchronizácia príspevkov a tém, môžete odtiaľto tiež spustiť resynchronizáciu fóra. <strong>Dôležité však je, že je potrebné okopírovať alebo nastaviť príslušné oprávnenia pre novovytvorené kategórie alebo fóra, aby boli korektne zobrazené užívateľom.</strong>',
 	'FORUM_AUTO_PRUNE'					=> 'Enable auto-pruning',
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Prunes the forum of topics, set the frequency/age parameters below.',
 	'FORUM_CREATED'						=> 'Forum created successfully.',
