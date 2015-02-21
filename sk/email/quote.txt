@@ -1,20 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Citácia vášho príspevku - "{TOPIC_TITLE}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože "{AUTHOR_NAME}" quoted you in the topic "{TOPIC_TITLE}" at "{SITENAME}". You can use the following link to view the reply made.
+Táto správa vám bola doručená pretože užívateľ "{AUTHOR_NAME}" použil citáciu vášho príspevku v téme "{TOPIC_TITLE}" na "{SITENAME}".
 
-If you want to view the quoted post, click the following link:
+Citovaný príspevok:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Odkaz na tému:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Odkaz na fórum:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies quoting you, please update your notification settings here:
-
+Ak nechcete dostávať podobné upozornenia, urobte potrebné zmeny v nastaveniach upozornení: 
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}

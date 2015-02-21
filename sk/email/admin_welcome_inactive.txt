@@ -1,19 +1,16 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Vitajte na "{SITENAME}"
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
+Ďakujeme za registráciu.
 
 ----------------------------
-Username: {USERNAME}
-
-Board URL: {U_BOARD}
+Užívateľské meno: {USERNAME}
+Adresa portálu: {U_BOARD}
 ----------------------------
 
-Your account is currently inactive and will need to be approved by an administrator before you can log in. Another email will be sent when this has occurred.
+Váš účet ešte nebol aktivovaný. Bez aktivácie účtu sa nemôžete prihlásiť. Aktivácia vášho účtu vyžaduje zásah administrátora portálu. Ihneď ako bude aktivácia účtu vykonaná, budete o tom informovaný.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
-
-Thank you for registering.
+Vaše heslo bolo bezpečne uložené do databázy. V prípade, že ste si ho nezapamätali, môžete využiť funkciu vyžiadania nového hesla.
 
 {EMAIL_SIG}

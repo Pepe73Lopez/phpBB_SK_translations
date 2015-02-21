@@ -1,7 +1,7 @@
-Subject: Report closed - "{POST_SUBJECT}"
+Subject: Sťažnosť vyriešená - "{POST_SUBJECT}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was handled by a moderator or by an administrator. The report was afterwards closed. If you have further questions contact {CLOSER_NAME} with a personal message.
+Táto správa vám bola doručená pretože sťažnosť na príspevok "{POST_SUBJECT}" v "{TOPIC_TITLE}" na "{SITENAME}" bola vyriešená moderátormi alebo administrátormi fóra. Sťažnosť bude následne uzavretá. Ak máte v tejto súvislosti nejaké otázky, kontaktujte prosím {CLOSER_NAME} odoslaním súkromnej správy.
 
 {EMAIL_SIG}

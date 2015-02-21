@@ -1,19 +1,19 @@
-Subject: phpBB installed
+Subject: phpBB nainštalovaný
 
-Congratulations,
+Gratulujeme,
 
-You have successfully installed phpBB on your server.
+úspešne ste nainštalovali phpBB na váš server.
 
-This email contains important information regarding your installation and should be kept for reference. Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Tento email obsahuje dôležité informácie súvisiace s inštaláciou a ml by byť bezpečne uložený. Vaše heslo bolo bezpečne uložené v databáze a nemôže byť zneužité. V prípade, že sste si ho nezapamätali, môžete využiť funkciu obnovenia hesla. Nové automaticky vygenerované heslo vám bude zaslané na emailovú adresu, ktorá je zviazaná s vaším účtom.
 
 ----------------------------
-Username: {USERNAME}
+Užívateľské meno: {USERNAME}
 
-Board URL: {U_BOARD}
+Odkaz na portál: {U_BOARD}
 ----------------------------
 
-Useful information regarding the phpBB software can be found in the docs folder of your installation and on phpBB.com's support page - https://www.phpbb.com/support/
+Užitočné informácie o softvéri phpBB môžete nájsť v priečinku "docs" a na serveri phpBB.com - https://www.phpbb.com/support/
 
-In order to keep your board safe and secure, we highly recommended keeping current with software releases. For your convenience, a mailing list is available at the page referenced above.
+S cieľom zachovania bezpečnosti odporúčame kontrolovať aktualizácie a udržiavať phpBB softvér na vašom serveri vždy aktuálny.
 
 {EMAIL_SIG}

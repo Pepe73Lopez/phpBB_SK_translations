@@ -1,7 +1,7 @@
-Subject: Report deleted - "{POST_SUBJECT}"
+Subject: Sťažnosť vymazaná - "{POST_SUBJECT}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was deleted by a moderator or by an administrator.
+Táto správa vám bola doručená pretože sťažnosť na príspevok "{POST_SUBJECT}" v "{TOPIC_TITLE}" na "{SITENAME}", ktorú ste odoslali bola vymazaná administrátomi alebo moderátormi portálu. 
 
 {EMAIL_SIG}

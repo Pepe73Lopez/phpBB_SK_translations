@@ -1,13 +1,13 @@
-Subject: Activate user account
+Subject: Požiadavka na aktiváciu účtu
 
 Dobrý deň,
 
-The account owned by "{USERNAME}" has been deactivated or newly created, you should check the details of this user (if required) and handle it appropriately.
+Účet užívateľa "{USERNAME}" bol deaktivovaný alebo práve vytvorený, mali by ste prveriť profil tohoto užívateľa, možno táto vec potrebuje zásah zo strany administrátora.
 
-Use this link to view the user's profile:
+Odkaz na profil užívateľa:
 {U_USER_DETAILS}
 
-Use this link to activate the account:
+Aktivácia účtu užívateľa:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

@@ -1,12 +1,10 @@
 
-The following is an email sent to you by an administrator of "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Bol vám doručený email, ktorého odosielateľom je emailová adresa administrátora portálu "{SITENAME}". Ak to považujete za SPAM alebo iný druh nevyžiadanej pošty, prosím kontaktujte administrátora portálu:
 
 {CONTACT_EMAIL}
 
-Include this full email (particularly the headers). 
-
-Message sent to you follows:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Obsah správy:
+~~~~~~~~~~~~~
 
 {MESSAGE}
 
