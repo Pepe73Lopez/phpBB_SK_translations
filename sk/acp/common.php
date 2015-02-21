@@ -373,10 +373,10 @@ $lang = array_merge($lang, array(
 
 	'POSTS_PER_DAY'		=> 'Posts per day',
 
-	'PURGE_CACHE'			=> 'Purge the cache',
-	'PURGE_CACHE_CONFIRM'	=> 'Are you sure you wish to purge the cache?',
-	'PURGE_CACHE_EXPLAIN'	=> 'Purge all cache related items, this includes any cached template files or queries.',
-	'PURGE_CACHE_SUCCESS'	=> 'Cache successfully purged.',
+	'PURGE_CACHE'			=> 'Vyprázdniť medzipamäť (cache)',
+	'PURGE_CACHE_CONFIRM'	=> 'Ste si istý, že chcete vyprázdniť medzipamäť (cache)?',
+	'PURGE_CACHE_EXPLAIN'	=> 'Odstránenie všetkých položiek v medzipamäti (cache) zhŕňa akékoľvek súčasti šablón alebo dotazov na databázu.',
+	'PURGE_CACHE_SUCCESS'	=> 'Medzipamäť (cache) úspešne vyprázdnená.',
 
 	'PURGE_SESSIONS'			=> 'Purge all sessions',
 	'PURGE_SESSIONS_CONFIRM'	=> 'Are you sure you wish to purge all sessions? This will log out all users.',
