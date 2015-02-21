@@ -1,6 +1,6 @@
 Subject: New private message has arrived
 
-Hello {USERNAME},
+Dobrý deň {USERNAME},
 
 You have received a new private message from "{AUTHOR_NAME}" to your account on "{SITENAME}" with the following subject:
 

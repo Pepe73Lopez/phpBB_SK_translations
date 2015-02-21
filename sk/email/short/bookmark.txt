@@ -1,20 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Upozornenie na odpoveď v téme - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Dobrý deň {USERNAME},
 
-You are receiving this notification because a topic you bookmarked, "{TOPIC_TITLE}" at "{SITENAME}", has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+Táto správa vám bola doručená pretože od vašej poslednej návštevy v téme "{TOPIC_TITLE}", ktorú sledujete na "{SITENAME}" bol zverejnený nový príspevok. Nasledovné odkazy môžete použiť k návšteve témy:
 
-If you want to view the newest post made since your last visit, click the following link:
+Ak chcete vidieť najnovší príspevok v téme, uverejnený od vašej poslednej návštevy:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Ak chcete navštíviť celú tému:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Ak chcete navštíviť celé fórum:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies to bookmarks, please update your notification settings here:
-
+Ak nechcete dostávať podobné upozornenia, urobte potrebné zmeny v nastaveniach upozornení: 
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}

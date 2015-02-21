@@ -1,8 +1,8 @@
 Subject: Post disapproved - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Dobrý deň {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Táto správa vám bola doručená pretože your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
 
 The following reason was given for the disapproval:
 
