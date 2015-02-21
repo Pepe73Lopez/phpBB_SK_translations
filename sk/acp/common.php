@@ -401,9 +401,9 @@ $lang = array_merge($lang, array(
 	'RESYNC_STATS_CONFIRM'			=> 'Are you sure you wish to resynchronise statistics?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Recalculates the total number of posts, topics, users and files.',
 	'RESYNC_STATS_SUCCESS'			=> 'Resynchronised statistics',
-	'RUN'							=> 'Run now',
+	'RUN'							=> 'Spustiť',
 
-	'STATISTIC'					=> 'Statistic',
+	'STATISTIC'					=> 'Štatistiky',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronise or reset statistics',
 
 	'TIMEZONE_INVALID'	=> 'The timezone you selected is invalid.',
