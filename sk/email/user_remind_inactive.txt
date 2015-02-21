@@ -1,11 +1,13 @@
-Subject: Inactive account reminder
+Subject: Pripomenutie aktivácie účtu
 
 Dobrý deň {USERNAME},
 
-This notification is a reminder that your account at "{SITENAME}", created on {REGISTER_DATE}, remains inactive. If you would like to activate this account, please visit the following link:
+Táto správa vám bola doručená pretože váš účet na "{SITENAME}", vytvorený {REGISTER_DATE}, nie je stále aktivovaný.
 
+
+Ak chcete aktivovať účet, prosím použite nasledovný odkaz:
 {U_ACTIVATE}
 
-Thank you for registering at "{SITENAME}", we look forward to your participation.
+Ďakujemme za registráciu na "{SITENAME}", tešíme sa na spoluprácu.
 
 {EMAIL_SIG}

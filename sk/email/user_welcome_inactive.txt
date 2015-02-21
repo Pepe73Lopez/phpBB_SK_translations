@@ -10,7 +10,6 @@ Adresa portálu: {U_BOARD}
 ----------------------------
 
 Pred tým, než budete môcť použiť prihlasovacie údaje je potrebné aktivovať váš účet. Proces aktivácie dokončíte použitím nasledovného odkazu:
-
 {U_ACTIVATE}
 
 Vaše heslo bolo bezpečne uložené do databázy. V prípade, že ste si ho nezapamätali, môžete využiť funkciu vyžiadania nového hesla.

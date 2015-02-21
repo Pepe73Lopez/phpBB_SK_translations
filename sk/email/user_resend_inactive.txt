@@ -1,19 +1,16 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Vitajte na "{SITENAME}"
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
+Ďakujeme za registráciu.
 
 ----------------------------
-Username: {USERNAME}
+Užívateľské meno: {USERNAME}
 ----------------------------
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
-
-Please visit the following link in order to activate your account:
-
+Pred tým, než budete môcť použiť prihlasovacie údaje je potrebné aktivovať váš účet. Proces aktivácie dokončíte použitím nasledovného odkazu:
 {U_ACTIVATE}
 
-Thank you for registering.
+Vaše heslo bolo bezpečne uložené do databázy. V prípade, že ste si ho nezapamätali, môžete využiť funkciu vyžiadania nového hesla.
 
 {EMAIL_SIG}

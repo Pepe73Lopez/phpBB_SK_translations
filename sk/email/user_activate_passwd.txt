@@ -1,17 +1,16 @@
-Subject: New password activation
+Subject: Zmena hesla
 
 Dobrý deň {USERNAME}
 
-Táto správa vám bola doručená pretože you have (or someone pretending to be you has) requested a new password be sent for your account on "{SITENAME}". If you did not request this notification then please ignore it, if you keep receiving it please contact the board administrator.
+Táto správa vám bola doručená pretože ste (alebo možno niekto, kto sa za vás vydáva) si vyžiadal aby bolo pridelené nové heslo na "{SITENAME}". Ak ste si istý, že ste to neboli vy, prosím ignorujte túto správu, ak sú vám nepretržite doručované správy s predmetom zmena hesla, kontkatujte prosím administrátora portálu.
 
-To use the new password you need to activate it. To do this click the link provided below.
-
+Aktiváciu nového hesla dokončíte použitím nasledovného odkazu:
 {U_ACTIVATE}
 
-If successful you will be able to login using the following password:
+Ak bude aktivovanie týmto odkazom úspešné, môžete na prihlásenie použiť nasledovné heslo vygenerované systémom:
 
-Password: {PASSWORD}
+Nové heslo: {PASSWORD}
 
-You can of course change this password yourself via the profile page. If you have any difficulties please contact the board administrator.
+Ak toto automaticky vygenerované heslo aktivujete a použijete pri prihlásení, môžete si ho potom kedykoľvek zmeniť v nastaveniach.
 
 {EMAIL_SIG}
