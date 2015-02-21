@@ -7,9 +7,13 @@ Lokalizácia phpBB 3.1.3 do slovenského jazyka
 <u>Kto chce prispieť nech pošle kontakt pridám ho ako contributora.</u>
 
 Stav prekladu:
+
 1. Užívateľské rozhranie - kompletné
+
 2. Šablóny emailovej komunikácie portálu s užívateľmi - cca 40%
+
 3. ACP - nedokončené
+
 4. Sprievodca inštaláciou - nezačaté
 
 Niektoré zásady použité v úvodnom branchi:
