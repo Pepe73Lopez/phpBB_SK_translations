@@ -2,9 +2,9 @@ Subject: Odpoveď v téme - "{TOPIC_TITLE}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože sledujete tému "{TOPIC_TITLE}" na "{SITENAME}". V tejto téme bol od vašej poslednej návštevy uverejnený nový príspevok<!-- IF AUTHOR_NAME !== '' --> od {AUTHOR_NAME}<!-- ENDIF -->.
+Táto správa vám bola doručená pretože sledujete tému "{TOPIC_TITLE}" na "{SITENAME}". V tejto téme bol od vašej poslednej návštevy uverejnený nový príspevok<!-- IF AUTHOR_NAME !== '' --> od užívateľa {AUTHOR_NAME}<!-- ENDIF -->.
 
-Odkaz na najnovie príspevky:
+Odkaz na najnovšie príspevky:
 {U_NEWEST_POST}
 
 Odkaz na sledovanú tému:

@@ -1,23 +1,23 @@
 
 Dobrý deň {TO_USERNAME},
 
-The following is an e-mail sent to you through the administration contact page on "{SITENAME}".
+Nasledujúca správa vám bola odoslaná prostredníctvom administrátora z portálu "{SITENAME}".
 
 <!-- IF S_IS_REGISTERED -->
-The message has been sent from an account on the site.
-Username: {FROM_USERNAME}
-E-mail address: {FROM_EMAIL_ADDRESS}
-IP Address: {FROM_IP_ADDRESS}
-Profile: {U_FROM_PROFILE}
+
+Od užívateľa: {FROM_USERNAME}
+Z emailovej adresy: {FROM_EMAIL_ADDRESS}
+IP adresy: {FROM_IP_ADDRESS}
+Profil: {U_FROM_PROFILE}
 <!-- ELSE -->
-The message was sent from a guest who specified the following contact information:
-Name: {FROM_USERNAME}
-E-mail address: {FROM_EMAIL_ADDRESS}
-IP Address: {FROM_IP_ADDRESS}
+Správa bola odoslaná od návštevníka portálu, ktorý uviedol nasledovné kontaktné informácie:
+Užívateľské meno: {FROM_USERNAME}
+email: {FROM_EMAIL_ADDRESS}
+IP adresa: {FROM_IP_ADDRESS}
 <!-- ENDIF -->
 
 
-Message sent to you follows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Správa obsahuje:
+~~~~~~~~~~~~~~~~
 
 {MESSAGE}
