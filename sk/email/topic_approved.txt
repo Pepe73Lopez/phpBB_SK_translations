@@ -1,10 +1,10 @@
-Subject: Topic approved - "{TOPIC_TITLE}"
+Subject: Uverejnenie témy bolo schválené - "{TOPIC_TITLE}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože your topic "{TOPIC_TITLE}" at "{SITENAME}" was approved by a moderator or administrator.
+Táto správa vám bola doručená pretože uverjnenie vašej témy "{TOPIC_TITLE}" na "{SITENAME}" bolo schváleneé moderátormi alebo administrátormi portálu.
 
-If you want to view the topic, click the following link:
+Odkaz na tému:
 {U_VIEW_TOPIC}
 
 {EMAIL_SIG}

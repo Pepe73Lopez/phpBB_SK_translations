@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'BACK_TO_DRAFTS'			     => 'Späť na uložené koncepty',
 	'BACK_TO_LOGIN'				=> 'Späť na prihlasovaciu stránku',
 	'BIRTHDAY'					=> 'Narodeniny',
-	'BIRTHDAY_EXPLAIN'			     => 'Uvedením roku bude zobrazený váš vek.',
+	'BIRTHDAY_EXPLAIN'			     => 'Uvedením roku narodenia budú ostatný užíatelia vo vašom profile vidieť váš vek.',
 	'BOARD_DATE_FORMAT'			     => 'Môj formát dátumov',
 	'BOARD_DATE_FORMAT_EXPLAIN'	     => 'Pužitý syntax je identický s funkciou <a href="http://www.php.net/date">date()</a> jazyka PHP.',
 	'BOARD_LANGUAGE'			     => 'Vlastný jazyk rozhrania portálu',
