@@ -1,17 +1,14 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Vitajte na "{SITENAME}"
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
-
 ----------------------------
-Username: {USERNAME}
-
-Board URL: {U_BOARD}
+Užívateľské meno: {USERNAME}
+Adresa portálu: {U_BOARD}
 ----------------------------
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Vaše heslo bolo bezpečne uložené do databázy. V prípade, že ste si ho nezapamätali, môžete využiť funkciu vyžiadania nového hesla.
 
-Thank you for registering.
+Ďakujeme za registráciu.
 
 {EMAIL_SIG}
