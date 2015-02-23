@@ -1,42 +1,42 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Vitajte na "{SITENAME}"
 
 {WELCOME_MSG}
 
-In compliance with the COPPA, your account is currently inactive.
+V súlade s pravidlami COPPA (vyhľáška o ochrane mládeže, platná v Spojených štátoch), nebol vami vytvorený účet aktivovaný.
 
-Please print this message and have your parent or guardian sign and date it. Then fax it to:
+Prosím vytlačte si túto správu a nechajte ju podpísať rodičmi alebo zákonným zástupcom s uvedením dátumu. Potom ju prosím odfaxujte na:
 
 {FAX_INFO}
 
-OR mail it to:
+alebo ju odošlite prostredníctvom elektronickej pošty:
 
 {MAIL_INFO}
 
------------------------------- CUT HERE ------------------------------
-Permission to participate at "{SITENAME}" - {U_BOARD}
+------------------------------ TU ODSTRIHNITE ------------------------------
+Potvrdenie prístupu na "{SITENAME}" - {U_BOARD}
 
-Username: {USERNAME}
-Email: {EMAIL_ADDRESS}
+Užívateľské meno: {USERNAME}
+Emailová adresa: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
-I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
-I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
-
-
-Parent or guardian 
-(print your name here): _____________________
-
-(sign here): __________________ 
-
-Date: _______________
-
------------------------------- CUT HERE ------------------------------
+SKONTROLOVAL/A SOMM ÚDAJE, KTORÉ BOLI POSKYTNUTÉ MOJIM DIEŤAŤOM A SÚHLASÍM S ICH ULOŽENÍM NA "{SITENAME}".
+SOM OBOZNÁMENÝ/Á S TÝM, ŽE TIETO ÚDAJE JE MOŽNÉ KEDYKOĽVEK MENIŤ ZADANÍM HESLA.
+SOM OBOZNÁMENÝ/Á S TÝM, ŽE MOŽEM KEDYKOĽVEK POŽIADAŤ O TO, ABY TIETO DÁTA BOLI ZMAZANÉ Z PORTÁLU "{SITENAME}".
 
 
-Once the administrator has received the above form via fax or regular mail, your account will be activated.
+Rodič alebo zákonný zástupca
+(Napíšte svoje meno): _____________________
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+(podpis): __________________
 
-Thank you for registering.
+Dátum: _______________
+
+------------------------------ TU ODSTRIHNITE ------------------------------
+
+
+Váš účet momentálne nie je aktivovaný, než sa budete môcť prihlásiť administrátori portálu ho musia aktivovať. Administrátori ho aktivujú bezprostredne po obdržaní prehlásenia, ktoré ste vyplnili a odoslali. Bezprostredne po aktivácii účtu dostanete vyrozumenie prostredníctvom emailovej správy.
+
+Upozorňujeme vás, že vami zadané heslo heslo bolo zašifrované a uložené v našej databáze a nie je možné ho získať späť. Pokiaľ ste si ho nezapamätali, môže vám byť odoslané nové heslo na vyžiadanie, ktoré ale bude potrebné aktivovať rovnakým spôsobom ako proces aktivácie účtu.
+
+Ďakujeme za registráciu.
 
 {EMAIL_SIG}

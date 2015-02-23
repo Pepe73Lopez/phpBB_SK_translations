@@ -1,9 +1,9 @@
-Subject: A request to join your group has been made
+Subject: Požiadavka na vstup do užívateľskej skupiny
 
-Dear {USERNAME},
+Dobrý deň {USERNAME},
 
-The user "{REQUEST_USERNAME}" has requested to join the group "{GROUP_NAME}" you moderate on "{SITENAME}".
-To approve or deny this request for group membership please visit the following link:
+Užívateľ "{REQUEST_USERNAME}" požiadal o vstup do skupiny "{GROUP_NAME}", ktorej ste moderátorom "{SITENAME}".
+Schváliť alebo zamietnuť túto požiadavku môžete na nasledujúcom odkaze:
 
 {U_PENDING}
 
