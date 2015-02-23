@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_LOG'	=> 'Display entries from previous',
 
-	'NO_ENTRIES'	=> 'No log entries for this period.',
+	'NO_ENTRIES'	=> 'Pre tento časový interval nie sú žiadne záznamy.',
 
 	'SORT_IP'		=> 'IP address',
 	'SORT_DATE'		=> 'Date',
