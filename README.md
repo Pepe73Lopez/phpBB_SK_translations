@@ -10,7 +10,7 @@ Lokalizácia phpBB 3.1.3 do slovenského jazyka
 
 1. Užívateľské rozhranie - kompletné
 
-2. Šablóny emailovej komunikácie portálu s užívateľmi - ostáva preložiť 16 emailových šablón
+2. Šablóny emailovej komunikácie portálu s užívateľmi - ostáva preložiť 14 emailových šablón
 
 3. ACP - nedokončené
 
@@ -27,7 +27,13 @@ Rozoznáva sa:
 - Message = Správa
 
 
-<a href=https://wiki.phpbb.com/Plural_Rules#Short_Example>Skloňovanie</a> je nastavené na <b>Rule #8</b>, použité je väčšinou v hodnotách 1,2 a 3 kde sa dá a je to účelné je použitý aj prípad pre 0;
+<a href=https://wiki.phpbb.com/Plural_Rules#Short_Example>Skloňovanie</a> je nastavené na <b>Rule #8</b>, použité je v hodnotách 1, 2 a 3 kde sa dá a je to účelné je použitý aj prípad pre 0;
+
+Príklady:
+1     =>  '%s znak' 	// 1 znak,
+2     =>  '%s znaky' 	// 2, 3, 4, znaky,
+3     =>  '%s znakov' 	// 5+ znakov,
+
 
 Ďalej,
 - user = užívateľ

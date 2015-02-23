@@ -5,7 +5,7 @@ Táto správa bola odoslaná od {FROM_USERNAME} prostredníctvom vášho účtu 
 
 {BOARD_CONTACT}
 
-Prosím berte na vedomie, že ako adresa odosielateľa bola nastavená emailová adresa portálu.
+Nasleduje celá správa. Prosím berte na vedomie, že adresa odosielateľa bola nastavená na účet IM portálu.
 
 Obsah správy:
 ~~~~~~~~~~~~~
