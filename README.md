@@ -29,7 +29,7 @@ Rozoznáva sa:
 
 <a href=https://wiki.phpbb.com/Plural_Rules#Short_Example>Skloňovanie</a> je nastavené na <b>Rule #8</b>, použité je v hodnotách 1, 2 a 3 kde sa dá a je to účelné je použitý aj prípad pre 0;
 
-Príklady:
+Príklady:   
 1     =>  '%s znak' 	// 1 znak,
 2     =>  '%s znaky' 	// 2, 3, 4, znaky,
 3     =>  '%s znakov' 	// 5+ znakov,
