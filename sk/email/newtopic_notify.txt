@@ -1,13 +1,13 @@
-Subject: New topic notification - "{FORUM_NAME}"
+Subject: Uverejnenie novej témy - "{FORUM_NAME}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože you are watching the forum "{FORUM_NAME}" at "{SITENAME}". This forum has received a new topic<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit, "{TOPIC_TITLE}". You can use the following link to view the forum, no more notifications will be sent until you visit the forum.
+Táto správa vám bola doručená pretože sledujete "{FORUM_NAME}" na "{SITENAME}". V tomto fóre bola od vašej poslednej návšetvy <!-- IF AUTHOR_NAME !== '' --> užívateľom {AUTHOR_NAME}<!-- ENDIF --> uverejnená nová téma "{TOPIC_TITLE}".
 
+Odkaz na sledované fórum:
 {U_FORUM}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
-
+Ak si viac neželáte sledovať toto fórum, kliknite na tlačítko "Nesledovať toto fórum" v náhľade fóra alebo môžete použiť nasledovný odkaz:
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}

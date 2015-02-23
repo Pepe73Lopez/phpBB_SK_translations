@@ -4,7 +4,7 @@ Gratulujeme,
 
 úspešne ste nainštalovali phpBB na váš server.
 
-Tento email obsahuje dôležité informácie súvisiace s inštaláciou a ml by byť bezpečne uložený. Vaše heslo bolo bezpečne uložené v databáze a nemôže byť zneužité. V prípade, že sste si ho nezapamätali, môžete využiť funkciu obnovenia hesla. Nové automaticky vygenerované heslo vám bude zaslané na emailovú adresu, ktorá je zviazaná s vaším účtom.
+Tento email obsahuje dôležité informácie súvisiace s inštaláciou a mal by byť bezpečne uložený. Vaše heslo bolo zašifrované a bezpečne uložené v databáze, z toho dôvodu nemôže byť uvedené v tejto správe. V prípade, že ste si ho nezapamätali, môžete využiť funkciu obnovenia hesla. Nové automaticky vygenerované heslo vám bude zaslané na emailovú adresu, ktorá je zviazaná s vaším účtom.
 
 ----------------------------
 Užívateľské meno: {USERNAME}

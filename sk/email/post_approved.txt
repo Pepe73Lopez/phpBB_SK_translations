@@ -1,13 +1,13 @@
-Subject: Post approved - "{POST_SUBJECT}"
+Subject: Uverejnenie príspevku schválené - "{POST_SUBJECT}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
+Táto správa vám bola doručená pretože uverejnenie vášho príspevku "{POST_SUBJECT}" at "{SITENAME}" bolo schválené moderátormi alebo administrátormi fóra.
 
-If you want to view the post, click the following link:
+Odkaz na príspevok:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Odkaz na tému:
 {U_VIEW_TOPIC}
 
 {EMAIL_SIG}

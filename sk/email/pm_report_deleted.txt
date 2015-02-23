@@ -1,7 +1,7 @@
-Subject: Report deleted - "{PM_SUBJECT}"
+Subject: Sťažnosť vymazaná - "{PM_SUBJECT}"
 
 Dobrý deň {USERNAME},
 
-Táto správa vám bola doručená pretože the report you filed regarding the private message "{PM_SUBJECT}" at "{SITENAME}" was deleted by a moderator or administrator.
+Táto správa vám bola doručená pretože sťažnosť na súkromnú správu "{PM_SUBJECT}", ktorú ste odoslali na "{SITENAME}" bola odstránená administrátormi alebo moderátormi fóra.
 
 {EMAIL_SIG}
