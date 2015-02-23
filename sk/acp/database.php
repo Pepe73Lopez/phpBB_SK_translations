@@ -44,9 +44,9 @@ $lang = array_merge($lang, array(
 	'BACKUP_TYPE'		=> 'Backup type',
 
 	'DATABASE'			=> 'Database utilities',
-	'DATA_ONLY'			=> 'Data only',
-	'DELETE_BACKUP'		=> 'Delete backup',
-	'DELETE_SELECTED_BACKUP'	=> 'Are you sure you want to delete the selected backup?',
+	'DATA_ONLY'			=> 'Len dáta',
+	'DELETE_BACKUP'		=> 'Zmazať zálohu',
+	'DELETE_SELECTED_BACKUP'	=> 'Ste si istý, že chcete zmazať označenú zálohu?',
 	'DESELECT_ALL'		=> 'Odznačiť všetko',
 	'DOWNLOAD_BACKUP'	=> 'Stiahnuť zálohu',
 
@@ -54,16 +54,16 @@ $lang = array_merge($lang, array(
 	'FILE_WRITE_FAIL'	=> 'Unable to write file to storage folder.',
 	'FULL_BACKUP'		=> 'Uplná záloha',
 
-	'RESTORE_FAILURE'		=> 'The backup file may be corrupt.',
+	'RESTORE_FAILURE'		=> 'Súbor so zálohou môže byť poškodený.',
 	'RESTORE_OPTIONS'		=> 'Možnosti obnovy',
-	'RESTORE_SELECTED_BACKUP'	=> 'Are you sure you want to restore the selected backup?',
-	'RESTORE_SUCCESS'		=> 'The database has been successfully restored.<br /><br />Your board should be back to the state it was when the backup was made.',
+	'RESTORE_SELECTED_BACKUP'	=> 'Ste si istý, že chcete obnoviť dáta z označeného súboru zálohy?',
+	'RESTORE_SUCCESS'		=> 'Databáza bola úspešne obnovená.<br /><br />Váš portál je teraz v stave, v akom bol v momente, kedy bola vykonaná záloha, z ktorej bola obnova vykonaná.',
 
 	'SELECT_ALL'			=> 'Označiť všetko',
 	'SELECT_FILE'			=> 'Vyberte súbor',
 	'START_BACKUP'			=> 'Spustiť zálohovanie',
 	'START_RESTORE'			=> 'Spustiť obnovenie',
-	'STORE_AND_DOWNLOAD'	=> 'Store and download',
+	'STORE_AND_DOWNLOAD'	=> 'Uložiť a stiahnuť',
 	'STORE_LOCAL'			=> 'Uložiť súbor lokálne',
 	'STRUCTURE_ONLY'		=> 'Len štruktúru',
 
