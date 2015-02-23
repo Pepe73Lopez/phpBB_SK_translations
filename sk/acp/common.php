@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAT_CUSTOMISE'			=> 'Prispôsobenie',
 	'ACP_CAT_DATABASE'			=> 'Database',
-	'ACP_CAT_DOT_MODS'			=> 'Extensions',
+	'ACP_CAT_DOT_MODS'			=> 'Rozšírenia',
 	'ACP_CAT_FORUMS'			=> 'Fóra',
 	'ACP_CAT_GENERAL'			=> 'Všeobecné',
 	'ACP_CAT_MAINTENANCE'		=> 'Údržba',
@@ -111,8 +111,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_JABBER_SETTINGS'		=> 'Nastavenia pre Jabber',
 
-	'ACP_LANGUAGE'				=> 'Language management',
-	'ACP_LANGUAGE_PACKS'		=> 'Language packs',
+	'ACP_LANGUAGE'				=> 'Správa jazykov',
+	'ACP_LANGUAGE_PACKS'		=> 'Jazykové balíky',
 	'ACP_LOAD_SETTINGS'			=> 'Nastavenia záťaže',
 	'ACP_LOGGING'				=> 'Zaznamenávanie',
 
@@ -462,8 +462,8 @@ $lang = array_merge($lang, array(
 
 // Log Entries
 $lang = array_merge($lang, array(
-	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Added or edited users’ user permissions</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Added or edited groups’ user permissions</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Pridané alebo upravené užívateľské oprávnenia užívateľa</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Pridané alebo upravené skupinové oprávnenia užívateľa</strong><br />» %s',
 	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Added or edited users’ global moderator permissions</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Added or edited groups’ global moderator permissions</strong><br />» %s',
 	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Added or edited users’ administrator permissions</strong><br />» %s',
@@ -489,7 +489,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Own permissions restored after using permissions from</strong><br />» %s',
 
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Failed administration login attempt</strong>',
-	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Successful administration login</strong>',
+	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Úspešné prihlásenie do Administrátorského panelu</strong>',
 
 	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Removed user attachments</strong><br />» %s',
 
@@ -538,11 +538,11 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_REGISTRATION'	=> '<strong>Altered user registration settings</strong>',
 	'LOG_CONFIG_FEED'			=> '<strong>Altered syndication feeds settings</strong>',
 	'LOG_CONFIG_SEARCH'			=> '<strong>Altered search settings</strong>',
-	'LOG_CONFIG_SECURITY'		=> '<strong>Altered security settings</strong>',
-	'LOG_CONFIG_SERVER'			=> '<strong>Altered server settings</strong>',
-	'LOG_CONFIG_SETTINGS'		=> '<strong>Altered board settings</strong>',
-	'LOG_CONFIG_SIGNATURE'		=> '<strong>Altered signature settings</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>Altered anti-spambot settings</strong>',
+	'LOG_CONFIG_SECURITY'		=> '<strong>Zmenené bezpečnostné nastavenia</strong>',
+	'LOG_CONFIG_SERVER'			=> '<strong>Zmenené nastavenia serveru</strong>',
+	'LOG_CONFIG_SETTINGS'		=> '<strong>Zmenené nastavenia portálu</strong>',
+	'LOG_CONFIG_SIGNATURE'		=> '<strong>Zmenené nastavenia podpisu</strong>',
+	'LOG_CONFIG_VISUAL'			=> '<strong>Zmenené nastavenia opatrení proti spambotom</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Approved topic</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>User bumped topic</strong><br />» %s',
@@ -669,11 +669,11 @@ $lang = array_merge($lang, array(
 
 	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Unable to open %1$s for tidying, check permissions.</strong><br />Exception: %2$s<br />Trace: %3$s',
 
-	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Profile field activated</strong><br />» %s',
-	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Profile field added</strong><br />» %s',
-	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>Profile field deactivated</strong><br />» %s',
-	'LOG_PROFILE_FIELD_EDIT'		=> '<strong>Profile field changed</strong><br />» %s',
-	'LOG_PROFILE_FIELD_REMOVED'		=> '<strong>Profile field removed</strong><br />» %s',
+	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Aktivované pole profilu</strong><br />» %s',
+	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Pridané pole profilu</strong><br />» %s',
+	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>Deaktivované pole profilu</strong><br />» %s',
+	'LOG_PROFILE_FIELD_EDIT'		=> '<strong>Zmenené pole profilu</strong><br />» %s',
+	'LOG_PROFILE_FIELD_REMOVED'		=> '<strong>Odstránené pole profilu</strong><br />» %s',
 
 	'LOG_PRUNE'					=> '<strong>Pruned forums</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Auto-pruned forums</strong><br />» %s',
@@ -682,8 +682,8 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Users pruned and posts deleted</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Users pruned and posts retained</strong><br />» %s',
 
-	'LOG_PURGE_CACHE'			=> '<strong>Purged cache</strong>',
-	'LOG_PURGE_SESSIONS'		=> '<strong>Purged sessions</strong>',
+	'LOG_PURGE_CACHE'			=> '<strong>Vyprázdnenie medzipamäte (cache)</strong>',
+	'LOG_PURGE_SESSIONS'		=> '<strong>Obnovenie relácií</strong>',
 
 	'LOG_RANK_ADDED'		=> '<strong>Added new rank</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Removed rank</strong><br />» %s',
@@ -704,10 +704,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Created search index for</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Removed search index for</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx Error</strong><br />» %s',
-	'LOG_STYLE_ADD'				=> '<strong>Added new style</strong><br />» %s',
-	'LOG_STYLE_DELETE'			=> '<strong>Deleted style</strong><br />» %s',
-	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Edited style</strong><br />» %s',
-	'LOG_STYLE_EXPORT'			=> '<strong>Exported style</strong><br />» %s',
+	'LOG_STYLE_ADD'				=> '<strong>Pridaný nový štýl</strong><br />» %s',
+	'LOG_STYLE_DELETE'			=> '<strong>Odtsránený štýl</strong><br />» %s',
+	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Upravený štýl</strong><br />» %s',
+	'LOG_STYLE_EXPORT'			=> '<strong>Export štýlu</strong><br />» %s',
 
 	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Added new template set to database</strong><br />» %s',
