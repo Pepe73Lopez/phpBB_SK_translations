@@ -14,7 +14,7 @@ Lokalizácia phpBB 3.1.3 do slovenského jazyka
 
 3. ACP - nedokončené
 
-4. Sprievodca inštaláciou - nezačaté
+4. Sprievodca inštaláciou - dokončené
 
 Niektoré zásady použité v úvodnom branchi:
 
