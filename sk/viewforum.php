@@ -64,8 +64,8 @@ $lang = array_merge($lang, array(
 	'UNREAD_POSTS_HOT'	 => 'Neprečítané príspevky [ Obľúbené ]',
 	'UNREAD_POSTS_LOCKED'    => 'Neprečítané príspevky [ Zamknuté ]',
 
-	'VIEW_FORUM'		=> 'Zobraziť fórum',
-	'VIEW_FORUM_TOPICS'	=> array(
+	'VIEW_FORUM'		 => 'Zobraziť fórum',
+	'VIEW_FORUM_TOPICS'	 => array(
 		1	 => '%d téma',
 		2	 => '%d témy',
                 3        => '%d tém',
