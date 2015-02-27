@@ -1,9 +1,13 @@
 <?php
 /**
 *
-* @package language
-* @copyright (c) 2007 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -32,7 +36,7 @@ $help = array(
 		1 => 'Úvod'
 	),
 	array(
-		0 => 'Čo je to BBCode?',
+		0 => 'Čo je to BBCode (značky)?',
 		1 => '<br />BBCode je špeciálna implementácia HTML, ktorá umožňuje meniť vlastnosti jednotlivých prvkov príspevku a celkový vzhľad príspevku. O tom, či môžete používať BBCode pri písaní príspevkov rozhoduje administrátor portálu nastavením príslušných možností portálu. Ak je používanie BBCode povolené pre celý portál, môžete o jeho použití nakoniec rozhodnúť sami pri písaní každého príspevku. BBCode je veľmi podobný HTML, značky charakterizujúce vlastnosť písaného textu, nazývané tiež tagy, sú uzvreté v hranatých zátvorkách [ ] a ponúkajú tak väčšiu kontrolu nad vzhľadom príspevku. Od použitej témy portálu závisí, či je pre vkladanie tagov možné použiť jednoduché zástupné ikony alebo písať tagy ručne.<br /><br />'
 	),
 	array(
