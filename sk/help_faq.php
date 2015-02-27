@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* help_faq [Slovak]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: help_faq.php,v 1.42 2010/01/05 23:00:00 phpbb3.sk Exp $
-* @copyright (c) 2007 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
