@@ -37,37 +37,33 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'		 => 'Aktívne témy',
-	'ANNOUNCEMENTS'	 	 => 'Oznámenia',
+	'ACTIVE_TOPICS'		     => 'Aktívne témy',
+	'ANNOUNCEMENTS'	 	     => 'Oznámenia',
 
-	'FORUM_PERMISSIONS'	 => 'Oprávnenia pre toto fórum',
+	'FORUM_PERMISSIONS'	     => 'Oprávnenia pre toto fórum',
 
-	'ICON_ANNOUNCEMENT'	 => 'Oznámenie',
-	'ICON_STICKY'		 => 'Pripnutá téma',
+	'ICON_ANNOUNCEMENT'	     => 'Oznámenie',
+	'ICON_STICKY'		     => 'Pripnutá téma',
 
-	'LOGIN_NOTIFY_FORUM' 	 => 'Fórum môžu prezerať iba registrovaný užívatelia, prosím prihláste sa.',
+	'LOGIN_NOTIFY_FORUM'     => 'Fórum môžu prezerať iba registrovaný užívatelia, prosím prihláste sa.',
 
-	'MARK_TOPICS_READ'	 => 'Označiť fórum ako prečítané',
+	'MARK_TOPICS_READ'	     => 'Označiť fórum ako prečítané',
 
-	'NEW_POSTS_HOT'	 	 => 'Nové príspevky [ Obľúbené ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'	 => 'Nové príspevky [ Zamknuté ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'	 => 'Žiadne nové príspevky [ Obľúbené ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	 => 'Žiadne nové príspevky [ Zamknuté ]',	// Not used anymore
-	'NO_READ_ACCESS'   	 => 'Na prezeranie príspevkov nemáte potrebné oprávnenia.',
+	'NEW_POSTS_HOT'	 	     => 'Nové príspevky [ Obľúbené ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'	     => 'Nové príspevky [ Zamknuté ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'	     => 'Žiadne nové príspevky [ Obľúbené ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'    => 'Žiadne nové príspevky [ Zamknuté ]',	// Not used anymore
+	'NO_READ_ACCESS'   	     => 'Na prezeranie príspevkov nemáte potrebné oprávnenia.',
 	'NO_UNREAD_POSTS_HOT'	 => 'Žiadne neprečítané príspevky [ Obľúbené ]',
 	'NO_UNREAD_POSTS_LOCKED' => 'Žiadne neprečítané príspevky [ Zamknuté ]',
 
-	'POST_FORUM_LOCKED'	 => 'Fórum je zamknuté',
+	'POST_FORUM_LOCKED'	     => 'Fórum je zamknuté',
+ 
+	'TOPICS_MARKED'		     => 'Témy tohoto fóra boli označené ako prečítané.',
 
-	'TOPICS_MARKED'		 => 'Témy tohoto fóra boli označené ako prečítané.',
-
-	'UNREAD_POSTS_HOT'	 => 'Neprečítané príspevky [ Obľúbené ]',
+	'UNREAD_POSTS_HOT'	     => 'Neprečítané príspevky [ Obľúbené ]',
 	'UNREAD_POSTS_LOCKED'    => 'Neprečítané príspevky [ Zamknuté ]',
 
-	'VIEW_FORUM'		 => 'Zobraziť fórum',
-	'VIEW_FORUM_TOPICS'	 => array(
-		1	 => '%d téma',
-		2	 => '%d témy',
-                3        => '%d tém',
-	),
+	'VIEW_FORUM'		     => 'Zobraziť fórum',
+	'VIEW_FORUM_TOPICS'	     => array(1 => '%d téma', 2 => '%d témy', 3 => '%d tém',),
 ));
