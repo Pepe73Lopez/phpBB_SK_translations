@@ -37,26 +37,26 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'			=> 'Konfiguračné nastavenia "%s" nenájdené.',
+	'CONFIG_NOT_EXIST'			     => 'Konfiguračné nastavenia "%s" nenájdené.',
 
-	'GROUP_NOT_EXIST'			=> 'Skupina "%s" nenájdená.',
+	'GROUP_NOT_EXIST'			     => 'Skupina "%s" nenájdená.',
 
-	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Aplikovať závislosti z %s.',
-	'MIGRATION_DATA_DONE'			=> 'Inštalované dáta: %1$s; Čas: %2$.2f sek.',
-	'MIGRATION_DATA_IN_PROGRESS'	        => 'Inštalujem dáta: %1$s; Čas: %2$.2f sek.',
-	'MIGRATION_DATA_RUNNING'		=> 'Inštalácia dát: %s.',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migrácia už je nainštalovaná (preskočené): %s',
-	'MIGRATION_EXCEPTION_ERROR'		=> 'Chyba. Zmeny, ktoré boli uskutočnené pred výskytom chyby boli vrátené späť, aj napriek tomu je potrebné skontrolovať fórum.',
-	'MIGRATION_NOT_FULFILLABLE'		=> 'Migráciu "%1$s" nie je možné uskutočniť, chýba "%2$s".',
-	'MIGRATION_NOT_VALID'			=> '%s nie je platná migrácia.',
-	'MIGRATION_SCHEMA_DONE'			=> 'Nainštalovaná schéma: %1$s; Čas: %2$.2f sek.',
-	'MIGRATION_SCHEMA_RUNNING'		=> 'Inštalácia schémy: %s.',
+	'MIGRATION_APPLY_DEPENDENCIES'	 => 'Aplikovať závislosti z %s.',
+	'MIGRATION_DATA_DONE'			 => 'Inštalované dáta: %1$s; Čas: %2$.2f sek.',
+	'MIGRATION_DATA_IN_PROGRESS'     => 'Inštalujem dáta: %1$s; Čas: %2$.2f sek.',
+	'MIGRATION_DATA_RUNNING'		 => 'Inštalácia dát: %s.',
+	'MIGRATION_EFFECTIVELY_INSTALLED'=> 'Migrácia už je nainštalovaná (preskočené): %s',
+	'MIGRATION_EXCEPTION_ERROR'		 => 'Chyba. Zmeny, ktoré boli uskutočnené pred výskytom chyby boli vrátené späť, aj napriek tomu je potrebné skontrolovať fórum.',
+	'MIGRATION_NOT_FULFILLABLE'		 => 'Migráciu "%1$s" nie je možné uskutočniť, chýba "%2$s".',
+	'MIGRATION_NOT_VALID'			 => '%s nie je platná migrácia.',
+	'MIGRATION_SCHEMA_DONE'			 => 'Nainštalovaná schéma: %1$s; Čas: %2$.2f sek.',
+	'MIGRATION_SCHEMA_RUNNING'		 => 'Inštalácia schémy: %s.',
 	
-	'MODULE_ERROR'				=> 'Chyba počas vytvárania modulu: %s',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Chýbajúci informačný súbor modulu: %2$s',
-	'MODULE_NOT_EXIST'	         	=> 'Potrebný modul nenájdený: %s',
+	'MODULE_ERROR'				     => 'Chyba počas vytvárania modulu: %s',
+	'MODULE_INFO_FILE_NOT_EXIST'	 => 'Chýbajúci informačný súbor modulu: %2$s',
+	'MODULE_NOT_EXIST'	         	 => 'Potrebný modul nenájdený: %s',
 
-	'PERMISSION_NOT_EXIST'			=> 'Nastavenia oprávnení "%s" nenájdené.',
+	'PERMISSION_NOT_EXIST'			 => 'Nastavenia oprávnení "%s" nenájdené.',
 
-	'ROLE_NOT_EXIST'			=> 'Funkcia oprávnení "%s" nenájdená.',
+	'ROLE_NOT_EXIST'			     => 'Funkcia oprávnení "%s" nenájdená.',
 ));
