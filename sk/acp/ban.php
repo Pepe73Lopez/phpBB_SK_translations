@@ -1,9 +1,13 @@
 <?php
 /**
 *
-* @package language
-* @copyright (c) 2007 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -34,47 +38,47 @@ if (empty($lang) || !is_array($lang))
 
 // Banning
 $lang = array_merge($lang, array(
-	'1_HOUR'		=> 'hodinu',
-	'30_MINS'		=> '30 minút',
-	'6_HOURS'		=> '6 hodín',
+	'1_HOUR' => 'hodinu',
+	'30_MINS' => '30 minút',
+	'6_HOURS' => '6 hodín',
 
-	'ACP_BAN_EXPLAIN'	=> 'Tu môžete ovládať udeľovanie zákazov prístupu užívateľom, konkrétnym IP adresám alebo emailovým adresám. Tieto metódy zabránia prístupu užívateľovi s udeleným zákazom k akejkoľvek časti portálu. Môžete pridať odôvodnenie v dĺžke maximálne 3000 znakov, ktoré bude tiež zobrazené v zázname činností administrátorov. Taktiež môžete definovať dobu trvania udeleného zákazu prístupu. Ak chcete uviesť konkrétny dátum do kedy má byť zákaz udelený použite voľbu <span style="text-decoration: underline;">do -&gt;</span> s uvedením dátumu vo formáte <kbd>RRR-MM-DD</kbd>.',
+	'ACP_BAN_EXPLAIN' => 'Tu môžete ovládať vylučovanie (banovanie) užívateľov podľa mena, IP alebo e-mailovej adresy. Tieto metódy zamedzujú užívateľovi prístup k akejkoľvek časti fóra. Ak chcete, môžete dať krátky (255 znakový) dôvod pre vylúčenie. Tento bude zobrazený v zázname (logu) admina. Dĺžka vylúčenia môže byť tiež špecifikovaná. Ak chcete vylúčenie do konca určitého dátumu, radšej než preddefinovanú dĺžku, vyberte <u>Až do</u> pre dĺžku vylúčenia a vložte dátum vo formáte yyyy-mm-dd (rrrr-mm-dd).',
 
-	'BAN_EXCLUDE'			=> 'Vyňať z ostaných udelených zákazov',
-	'BAN_LENGTH'			=> 'Doba zákazu prístupu na portál',
-	'BAN_REASON'			=> 'Dôvod',
-	'BAN_GIVE_REASON'		=> 'Dôvod zobrazený užívateľovi',
-	'BAN_UPDATE_SUCCESSFUL'	=> 'Zoznam zákazov bol úspešne obnovený.',
-	'BANNED_UNTIL_DATE'		=> 'do %s', // Example: "until Mon 13.Jul.2009, 14:44"
-	'BANNED_UNTIL_DURATION'	=> '%1$s (do %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
+	'BAN_EXCLUDE' => 'Vyňať z vylúčenia',
+	'BAN_LENGTH' => 'Dĺžka vylúčenia',
+	'BAN_REASON' => 'Dôvod vylúčenia',
+	'BAN_GIVE_REASON' => 'Dôvod zobrazený vylúčenému',
+	'BAN_UPDATE_SUCCESSFUL'	=> 'Zoznam vylúčených bol úspešne aktualizovaný.',
+	'BANNED_UNTIL_DATE' => 'až do %s', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION' => '%1$s (do %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
-	'EMAIL_BAN'				=> 'Udeliť zákaz prístupu na portál na základe jednej alebo viacerých emailových adries',
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Označte ak chcete uvedenej alebo uvedeným emailovým adresám zároveň zrušiť v súčasnosti im udelené zákazy vstupu.',
-	'EMAIL_BAN_EXPLAIN'		     => 'Ak chcete vložiť viac emailových adries, vložte každú na samostatný riadok. Ak má časť emailovej adresy reprezentovať ľubovoľnú sekvenciu znakov použite * , napríklad <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, a pod.',
-	'EMAIL_NO_BANNED'			=> 'Žiadne udelené zákazy prístupu',
-	'EMAIL_UNBAN'				=> 'Zrušiť udelené zákazy prístupu alebo vyňať zo zákazu konkrétne emailové adresy',
-	'EMAIL_UNBAN_EXPLAIN'		=> 'Môžete zrušiť udelený zákaz prístupu na portál viacerým emailovým adresám naraz použitím zodpovedajúcej kombinácie klávesnice a polohovacieho zariadenia (najčastejšie podržaním LCtrl a označovaním prvkov v zozname). Vyradené emailové adresy budú zvýraznené.',
+	'EMAIL_BAN'	=> 'Vylúčiť jednu alebo viac e-mailových adries',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Povoľte možnosť pre vyradenie vloženej adresy z aktívnych vylúčení.',
+	'EMAIL_BAN_EXPLAIN' => 'Pre určenie viac než jednej e-mailovej adresy, vložte každú z nich na nový riadok. Pre zhodu časti adries použite * ako náhradný znak, napr. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, atď.',
+	'EMAIL_NO_BANNED' => 'Žiadne vylúčené e-mailové adresy',
+	'EMAIL_UNBAN'=> 'Zrušiť vylúčenie alebo zrušiť vyňatie e-mailov',
+	'EMAIL_UNBAN_EXPLAIN' => 'Môžete zrušiť vylúčenie (alebo zrušiť vyňatie) viacerých e-mailových adries naraz správnym použitím kombinácie myši a klávesnice na vašom PC a prehliadača. Vyňaté e-mailové adresy budú zvýraznené.',
 
-	'IP_BAN'					=> 'Udeliť zákaz prístupu na portál na základe jednej alebo viacerých IP adries',
-	'IP_BAN_EXCLUDE_EXPLAIN'	     => 'Označte ak chcete uvedenej alebo uvedeným IP adresám zároveň zrušiť v súčasnosti im udelené zákazy vstupu.',
-	'IP_BAN_EXPLAIN'			=> 'Ak chcete vložiť viac IP adries, vložte každú na samostatný riadok. Ak má časť IP adresy reprezentovať ľubovoľnú sekvenciu čísel použite *, ak chcete určiť interval IP adries oddeľte počiatočnú a koncovú IP adresu pomlčkou, príklad 168.100.10.1-169.*.*.*',
-	'IP_HOSTNAME'				=> 'IP addresses or hostnames',
-	'IP_NO_BANNED'				=> 'Žiadne udelené zákazy prístupu',
-	'IP_UNBAN'				=> 'Zrušiť udelené zákazy prístupu alebo vyňať zo zákazu konkrétne IP adresy',
-	'IP_UNBAN_EXPLAIN'			=> 'Môžete zrušiť udelený zákaz prístupu na portál viacerým IP adresám naraz použitím zodpovedajúcej kombinácie klávesnice a polohovacieho zariadenia (najčastejšie podržaním LCtrl a označovaním prvkov v zozname). Vyradené IP adresy budú zvýraznené.',
+	'IP_BAN' => 'Vylúčiť jednu alebo viac IP',
+	'IP_BAN_EXCLUDE_EXPLAIN' => 'Povoľte možnosť pre vyradenie vloženej IP z aktívnych vylúčení.',
+	'IP_BAN_EXPLAIN' => 'Pre určenie rôznych IP alebo názvov hostingov, vložte každú z nich na nový riadok. Pre určenie rozsahu IP adries, oddeľte začiatok a koniec pomlčkou (-), pre určenie zástupných znakov použite *',
+	'IP_HOSTNAME' => 'IP adresy alebo názvy hostingov',
+	'IP_NO_BANNED' => 'Žiadne vylúčené IP adresy',
+	'IP_UNBAN' => 'Zrušiť vylúčenie alebo zrušiť vyňatie IP',
+	'IP_UNBAN_EXPLAIN' => 'Môžete zrušiť vylúčenie (alebo zrušiť vyňatie) viacerých IP adries naraz správnym použitím kombinácie myši a klávesnice na Vašom PC a prehliadača. Vyňaté IP adresy majú označené pozadie.',
 
-	'LENGTH_BAN_INVALID'		=> 'Dátum musí byť vo formáte <kbd>RRR-MM-DD</kbd>.',
+	'LENGTH_BAN_INVALID' => 'Dátum musí mať formát <kbd>RRRR-MM-DD</kbd>.',
 
-	'OPTIONS_BANNED'			=> 'Prístup zakázaný',
-	'OPTIONS_EXCLUDED'			=> 'Okrem/Vylúčené',
+	'OPTIONS_BANNED' => 'Vylúčený (zabanovaný)',
+	'OPTIONS_EXCLUDED' => 'Vyňatý',
 
-	'PERMANENT'		          => 'Natrvalo',
+	'PERMANENT' => 'Trvalé',
 
-	'UNTIL'					=> 'do',
-	'USER_BAN'				=> 'Udeliť zákaz prístupu na portál jednému alebo viacerým užívateľským menám',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Označte ak chcete uvedenej alebo uvedeným užívateľským menám zároveň zrušiť v súčasnosti im udelené zákazy vstupu.',
-	'USER_BAN_EXPLAIN'			=> 'Ak chcete vložiť viac užívateľských mien, vložte každé na samostatný riadok. Môžete tiež využiť funkciu <span style="text-decoration: underline;">Vyhľadať užívateľa</span>, ktorá je pod oknom editácie.',
-	'USER_NO_BANNED'			=> 'Žiadne udelené zákazy prístupu',
-	'USER_UNBAN'				=> 'Zrušiť udelený zákaz prístupu alebo vyradiť konkrétne užívateľské meno',
-	'USER_UNBAN_EXPLAIN'		=> 'Môžete zrušiť udelený zákaz prístupu na portál viacerým užívateľom naraz použitím zodpovedajúcej kombinácie klávesnice a polohovacieho zariadenia (najčastejšie podržaním LCtrl a označovaním prvkov v zozname). Vyradené užívateľské mená budú zvýraznené.',
+	'UNTIL' => 'Až do',
+	'USER_BAN' => 'Vylúčiť jedno alebo viac užívateľských mien',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Povoľte možnosť pre vyňatie vložených užívateľov zo všetkých momentálnych vylúčení.',
+	'USER_BAN_EXPLAIN' => 'Môžete vylúčiť viac užívateľov naraz zadaním každého mena do nového riadku. Použite funkciu <u>Nájsť člena</u> pre vyhľadanie a automatické zadanie jedného alebo viac užívateľov.',
+	'USER_NO_BANNED' => 'Žiadne vylúčené užívateľské mená',
+	'USER_UNBAN' => 'Zrušiť vylúčenie alebo zrušiť vyňatie užívateľských mien',
+	'USER_UNBAN_EXPLAIN' => 'Môžete zrušiť vylúčenie (alebo zrušiť vyňatie) viacerých užívateľov naraz správnym použitím kombinácie myši a klávesnice na Vašom PC a prehliadača. Vyňatí užívatelia sú zvýraznení.',
 ));
