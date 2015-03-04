@@ -34,58 +34,55 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'This section allows you to delete or deactivate users on your board. Accounts can be filtered in a variety of ways; by post count, most recent activity, etc. Criteria may be combined to narrow down which accounts are affected. For example, you can prune users with fewer than 10 posts, who were also inactive after 2002-01-01. Use * as a wildcard for text fields. Alternatively, you may skip the criteria selection completely by entering a list of users (each on a separate line) into the text field. Take care with this facility! Once a user is deleted, there is no way to reverse the action.',
+	'ACP_PRUNE_USERS_EXPLAIN' => 'Táto sekcia vám umožňuje zmazať alebo deaktivovať užívateľov na vašom fóre. Účty môžu byť filtrované rôznymi spôsobmi; podľa počtu príspevkov, poslednej aktivity atď. Kritériá je možné kombinovať pre zúženie ovplyvnených účtov. Napríklad môžete prečistiť užívateľov s menej ako 10 príspevkami, ktorí zároveň boli neaktívni po 1.1.2012. Môžete taktiež úplne preskočiť výber kritérií vložením zoznamu užívateľov (každý na novom riadku) do textového poľa. Buďte opatrní pri prečisťovaní užívateľov! Zmazaných užívateľov nie je možné vrátiť späť.',
 
-	'CRITERIA'				=> 'Criteria',
+	'DEACTIVATE_DELETE' => 'Deaktivovať alebo zmazať',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Vyberte, či chcete užívateľov deaktivovať alebo ich úplne zmazať. Prosíme, uvedomte si, že zmazaných užívateľov sa už nedá obnoviť!',
+	'DELETE_USERS' => 'Zmazať',
+	'DELETE_USER_POSTS'	=> 'Odstrániť príspevky prečistených užívateľov',
+	'DELETE_USER_POSTS_EXPLAIN' => 'Odstrániť príspevky zmazaných užívateľov, nemá účinok pre deaktivovaní užívateľov.',
 
-	'DEACTIVATE_DELETE'			=> 'Deactivate or delete',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Choose whether to deactivate users or delete them entirely. Please note that deleted users cannot be restored!',
-	'DELETE_USERS'				=> 'Delete',
-	'DELETE_USER_POSTS'			=> 'Delete pruned user posts',
-	'DELETE_USER_POSTS_EXPLAIN' => 'Removes posts made by deleted users, has no effect if users are deactivated.',
+	'JOINED_EXPLAIN' => 'Zadajte dátum vo formáte <kbd>RRRR-MM-DD</kbd> ',
 
-	'JOINED_EXPLAIN'			=> 'Enter a date in <kbd>YYYY-MM-DD</kbd> format. You may use both fields to specify an interval, or leave one blank for an open date range.',
+	'LAST_ACTIVE_EXPLAIN' => 'Zadajte dátum vo formáte <kbd>RRRR-MM-DD</kbd>. Zadajte <kbd>0000-00-00</kbd> pre prečistenie užívateľov, ktorí sa nikdy neprihlásili, v tomto prípade budú ignorované podmienky <em>Pred</em> a <em>Po</em> ',
 
-	'LAST_ACTIVE_EXPLAIN'		=> 'Enter a date in <kbd>YYYY-MM-DD</kbd> format. Enter <kbd>0000-00-00</kbd> to prune users who never logged in, <em>Before</em> and <em>After</em> conditions will be ignored.',
+	'POSTS_ON_QUEUE' => 'Posts Awaiting Approval',
+	'PRUNE_USERS_LIST' => 'Užívatelia k prečisteniu',
+	'PRUNE_USERS_LIST_DELETE' => 'S vybranými kritériami pre prečistenie užívateľov budú odstránené nasledujúce užívateľské účty.',
+	'PRUNE_USERS_LIST_DEACTIVATE' => 'S vybranými kritériami pre prečistenie užívateľov budú deaktivováné nasledujúce užívateľské účty.',
 
-	'POSTS_ON_QUEUE'			=> 'Posts Awaiting Approval',
-	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Limit to users within the selected group.',
-	'PRUNE_USERS_GROUP_NONE'	=> 'All groups',
-	'PRUNE_USERS_LIST'				=> 'Users to be pruned',
-	'PRUNE_USERS_LIST_DELETE'		=> 'With the selected critera for pruning users the following accounts will be removed. You can remove individual users from the deletion list by unchecking the box next to their username.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'With the selected critera for pruning users the following accounts will be deactivated. You can remove individual users from the deactivation list by unchecking the box next to their username.',
+	'SELECT_USERS_EXPLAIN' => 'Sem vložte užívateľské mená, pre ktoré majú byť použité nastavené kritéria. Zakladatelia fora nemôžu byť prečistení.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Enter specific usernames here. They will be used in preference to the criteria above. Founders cannot be pruned.',
+	'USER_DEACTIVATE_SUCCESS' => 'Vybraní užívatelia boli úspešne deaktivovaní.',
+	'USER_DELETE_SUCCESS' => 'Vybraní užívatelia boli úspešne zmazaní.',
+	'USER_PRUNE_FAILURE' => 'Vybraným kritériám nevyhovujú žiadni užívatelia.',
 
-	'USER_DEACTIVATE_SUCCESS'	=> 'The selected users have been deactivated successfully.',
-	'USER_DELETE_SUCCESS'		=> 'The selected users have been deleted successfully.',
-	'USER_PRUNE_FAILURE'		=> 'No users fit the selected criteria.',
-
-	'WRONG_ACTIVE_JOINED_DATE'	=> 'The date entered is wrong, it is expected in <kbd>YYYY-MM-DD</kbd> format.',
+	'WRONG_ACTIVE_JOINED_DATE' => 'Zadaný dátum nie je správny, použite formát <kbd>RRRR-MM-DD</kbd>.',
 ));
 
 // Forum Pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'This will delete any topic which has not been posted to or viewed within the number of days you select. If you do not enter a number then all topics will be deleted. By default, it will not remove topics in which polls are still running nor will it remove stickies and announcements.',
+	'ACP_PRUNE_FORUMS_EXPLAIN' => 'Toto zmaže témy, ktoré neboli odoslané alebo zobrazené v počte dní, ktoré vyberiete. Pokiaľ nezadáte číslo, zmazané budú všetky témy. Vo základnom nastavení nezmaže témy s hlasovaniami, ktoré stále bežia, ani dôležité témy a oznámenia.',
 
-	'FORUM_PRUNE'		=> 'Forum prune',
+	'FORUM_PRUNE' => 'Prečistenie fóra',
 
-	'NO_PRUNE'			=> 'No forums pruned.',
+	'NO_PRUNE' => 'Žiadne fóra neboli prečistené',
 
-	'SELECTED_FORUM'	=> 'Selected forum',
-	'SELECTED_FORUMS'	=> 'Selected forums',
+	'SELECTED_FORUM' => 'Vybrané fórum',
+	'SELECTED_FORUMS' => 'Vybrané fóra',
 
-	'POSTS_PRUNED'					=> 'Posts pruned',
-	'PRUNE_ANNOUNCEMENTS'			=> 'Prune announcements',
-	'PRUNE_FINISHED_POLLS'			=> 'Prune closed polls',
-	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Removes topics with polls which have ended.',
-	'PRUNE_FORUM_CONFIRM'			=> 'Are you sure you want to prune the selected forums with the settings specified? Once removed, there is no way to recover the pruned posts and topics.',
-	'PRUNE_NOT_POSTED'				=> 'Days since last posted',
-	'PRUNE_NOT_VIEWED'				=> 'Days since last viewed',
-	'PRUNE_OLD_POLLS'				=> 'Prune old polls',
-	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Removes topics with polls not voted in for post age days.',
-	'PRUNE_STICKY'					=> 'Prune stickies',
-	'PRUNE_SUCCESS'					=> 'Pruning of forums was successful.',
+	'POSTS_PRUNED' => 'Prečistené príspevky',
+	'PRUNE_ANNOUNCEMENTS' => 'Prečistiť oznámenia',
+	'PRUNE_FINISHED_POLLS' => 'Prečistiť uzavreté hlasovania',
+	'PRUNE_FINISHED_POLLS_EXPLAIN' => 'Vymaže témy s hlasovaniami, ktoré už skončili.',
+	'PRUNE_FORUM_CONFIRM' => 'Naozaj chcete prečistiť vybrané fóra so špecifikovanými nastaveniami? Ak sa témy raz vymažú, už nie je možné obnoviť prečistené príspevky a témy.',
+	'PRUNE_NOT_POSTED' => 'Dni od poslednej odpovede',
+	'PRUNE_NOT_VIEWED' => 'Dni od posledného zobrazenia',
+	'PRUNE_OLD_POLLS' => 'Prečistiť staré hlasovania',
+	'PRUNE_OLD_POLLS_EXPLAIN' => 'Odstráni témy s hlasovaním, v ktorých sa nehlasovalo viac ako je nastavený čas od posledného príspevku.',
+	'PRUNE_STICKY' => 'Prečistiť dôležité',
+	'PRUNE_SUCCESS' => 'Prečistenie fór bolo úspešné.',
 
-	'TOPICS_PRUNED'		=> 'Topics pruned',
+	'TOPICS_PRUNED' => 'Prečistené témy',
 ));
+?>
