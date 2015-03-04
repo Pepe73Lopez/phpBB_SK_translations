@@ -10,9 +10,11 @@ Lokalizácia phpBB 3.1.3 do slovenského jazyka
 
 2. Šablóny e-mailovej komunikácie portálu s užívateľmi - dokončené
 
-3. ACP - prekladá sa...
+3. ACP - dokončené
 
 4. Sprievodca inštaláciou - dokončené
+
+- Prebieha korekcia textov, zapojte sa do skvalitňovania a vylepšovania prekladu...
 
 Niektoré zásady použité v úvodnom branchi:
 
