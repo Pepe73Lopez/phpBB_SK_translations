@@ -1,9 +1,13 @@
 <?php
 /**
 *
-* @package language
-* @copyright (c) 2007 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -34,35 +38,36 @@ if (empty($lang) || !is_array($lang))
 
 // Bot settings
 $lang = array_merge($lang, array(
-	'BOTS'				=> 'Manage bots',
-	'BOTS_EXPLAIN'		=> '“Bots”, “spiders” or “crawlers” are automated agents most commonly used by search engines to update their databases. Since they rarely make proper use of sessions they can distort visitor counts, increase load and sometimes fail to index sites correctly. Here you can define a special type of user to overcome these problems.',
-	'BOT_ACTIVATE'		=> 'Activate',
-	'BOT_ACTIVE'		=> 'Bot active',
-	'BOT_ADD'			=> 'Add bot',
-	'BOT_ADDED'			=> 'New bot successfully added.',
-	'BOT_AGENT'			=> 'Agent match',
-	'BOT_AGENT_EXPLAIN'	=> 'A string matching the bots browser agent, partial matches are allowed.',
-	'BOT_DEACTIVATE'	=> 'Deactivate',
-	'BOT_DELETED'		=> 'Bot deleted successfully.',
-	'BOT_EDIT'			=> 'Edit bots',
-	'BOT_EDIT_EXPLAIN'	=> 'Here you can add or edit an existing bot entry. You may define an agent string and/or one or more IP addresses (or range of addresses) to match. Be careful when defining matching agent strings or addresses. You may also specify a style and language that the bot will view the board using. This may allow you to reduce bandwidth use by setting a simple style for bots. Remember to set appropriate permissions for the special Bot usergroup.',
-	'BOT_LANG'			=> 'Bot language',
-	'BOT_LANG_EXPLAIN'	=> 'The language presented to the bot as it browses.',
-	'BOT_LAST_VISIT'	=> 'Last visit',
-	'BOT_IP'			=> 'Bot IP address',
-	'BOT_IP_EXPLAIN'	=> 'Partial matches are allowed, separate addresses with a comma.',
-	'BOT_NAME'			=> 'Bot name',
-	'BOT_NAME_EXPLAIN'	=> 'Used only for your own information.',
-	'BOT_NAME_TAKEN'	=> 'The name is already in use on your board and can’t be used for the Bot.',
-	'BOT_NEVER'			=> 'Never',
-	'BOT_STYLE'			=> 'Bot style',
-	'BOT_STYLE_EXPLAIN'	=> 'The style used for the board by the bot.',
-	'BOT_UPDATED'		=> 'Existing bot updated successfully.',
+	'BOTS'	=> 'Správa botov',
+	'BOTS_EXPLAIN' => '„Bot“, „Spider“ (pavúk) alebo „crawler“ je program bežne používaný vyhľadávačmi na aktualizáciu ich databáz. Vzhľadom k tomu, že len zriedka správne používajú session-y, môžu narušiť počty návštev, zvyšujú záťaž a niekedy sa im nepodarí indexovať stránky správne. Tu môžete definovať špeciálny typ užívateľa na prekonanie týchto problémov.',
+	'BOT_ACTIVATE' => 'Aktivovať',
+	'BOT_ACTIVE' => 'Aktívny bot',
+	'BOT_ADD' => 'Pridať bota',
+	'BOT_ADDED' => 'Nový bot bol úspešne pridaný.',
+	'BOT_AGENT' => 'Rozpoznanie bota podľa označenia',
+	'BOT_AGENT_EXPLAIN'	=> 'Reťazec, ktorý je zhodný s botovým user agent-om, čiastočné zhody sú povolené.',
+	'BOT_DEACTIVATE' => 'Deaktivovať',
+	'BOT_DELETED' => 'Bot bol úspešne odstránený.',
+	'BOT_EDIT' => 'Upraviť bota',
+	'BOT_EDIT_EXPLAIN' => 'Tu môžete pridávať alebo upravovať existujúcich botov. Môžete definovať reťazec agenta a/alebo jeden alebo viac IP adries (alebo rozsah adries). Buďte opatrní pri definovaní zodpovedajúcich reťazcov agenta alebo adresy. Môžete tiež určiť štýl a jazyk, pod ktorými bot bude používať fórum. To vám umožní znížiť prenesené dáta nastavením jednoduchého štýlu botom. Nezabudnite nastaviť príslušné oprávnenia pre zvláštnu užívateľskú skupinu „Boti“.',
+	'BOT_LANG' => 'Jazyk',
+	'BOT_LANG_EXPLAIN' => 'Jazyk prezentovaný botom, keď prehliadajú fórum.',
+	'BOT_LAST_VISIT' => 'Posledná návšteva',
+	'BOT_IP' => 'IP adresa bota',
+	'BOT_IP_EXPLAIN' => 'Čiastočné zhody sú povolené, adresy oddeľte čiarkou.',
+	'BOT_NAME' => 'Meno bota',
+	'BOT_NAME_EXPLAIN' => 'Slúži len pre vašu informáciu.',
+	'BOT_NAME_TAKEN' => 'Tento názov je už na vašom fóre používaný a nemôžete ho použiť pre tohto bota.',
+	'BOT_NEVER'	=> 'Nikdy',
+	'BOT_STYLE'	=> 'Štýl bota',
+	'BOT_STYLE_EXPLAIN'	=> 'Štýl používaný pre bota.',
+	'BOT_UPDATED' => 'Nastavenia boli úspešne aktualizované.',
 
-	'ERR_BOT_AGENT_MATCHES_UA'	=> 'The bot agent you supplied is similar to the one you are currently using. Please adjust the agent for this bot.',
-	'ERR_BOT_NO_IP'				=> 'The IP addresses you supplied were invalid or the hostname could not be resolved.',
-	'ERR_BOT_NO_MATCHES'		=> 'You must supply at least one of an agent or IP for this bot match.',
+	'ERR_BOT_AGENT_MATCHES_UA' => 'Agent bota ktorého ste pridali je podobný tomu, ktorého práve používate. Prosím upravte agenta pre tohto bota.',
+	'ERR_BOT_NO_IP'	=> 'IP adresy, ktoré ste poskytli sú neplatné, alebo hostname nemohol byť rozpoznaný.',
+	'ERR_BOT_NO_MATCHES' => 'Musíte dodať minimálne buď agenta alebo IP adresu, ktorá sa zhoduje s týmto botom.',
 
-	'NO_BOT'		=> 'Found no bot with the specified ID.',
-	'NO_BOT_GROUP'	=> 'Unable to find special bot group.',
+	'NO_BOT' => 'Žiadny bot nebol nájdený podľa zadaného ID.',
+	'NO_BOT_GROUP' => 'Nebolo možné nájsť špeciálnu skupinu pre botov.',
 ));
+?>
