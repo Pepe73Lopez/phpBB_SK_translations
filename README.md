@@ -2,8 +2,6 @@
 ----------------
 Lokalizácia phpBB 3.1.3 do slovenského jazyka
 
-
-
 <b>Kto chce prispieť nech pošle kontakt pridám ho ako contributora.</b>
 
 <h3>Stav prekladu:</h3>
@@ -55,3 +53,6 @@ užívatelia môžu byť:
 - novo registrovaní
 - COPPA = mladiství
   
+Podporte novo zrodený projekt pokecaj.sk svojim Likom
+https://www.facebook.com/pages/pokecajsk/1494487154152925
+Ďakujeme
