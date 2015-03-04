@@ -1,11 +1,16 @@
 <?php
 /**
 *
-* @package language
-* @copyright (c) 2007 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
+
 
 /**
 * DO NOT CHANGE
@@ -34,31 +39,32 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Odtiaľto môžete odosielať hromadnú emailovú správu všetkým užívateľom alebo členom určitej skupiny, ktorá má nastavené prijímanie hromadnej pošty. Hromadná správa bude odoslaná na emailovú adresu administrátora portálu s uvedením vami označených adresátov ako príjemcov slepej kópie. Implicitne je počet príjemcov nastavený na 20, ak odosielate viacerým príjemcom bude odoslaných viacero emailových správ. Neprerušujte proces odosielania a počkajte až bude ukončený. O výsledku odoslania budete po skončení procesu informovaný.',
-	'ALL_USERS'					=> 'Všetkým užívateľom',
+	'ACP_MASS_EMAIL_EXPLAIN' => 'Tu môžete poslať emailovú správu buď všetkým užívateľom alebo všetkým užívateľom určitej skupiny, <strong>ktorá má povolenú možnosť dostávať hromadné e-maily</strong>. Na dosiahnutie toho, e-mail bude odoslaný na zadaný administratívny e-mail so skrytými kópiami, ktoré budú poslané každému príjemcovi. Predvolené nastavenie vkladá len 50 prijímateľov do takéhoto e-mailu, pre viac príjemcov bude poslaných viac e-mailov. Ak posielate email veľkej skupine ľudí, prosíme, buďte po odoslaní trpezlivý a nezastavujte stránku na polceste. Pre hromadné emaily je normálne, že to trvá dlhý čas. Keď skript ukončí prácu, budete o tom oboznámený.',
+	'ALL_USERS'	=> 'Všetci užívatelia',
 
-	'COMPOSE'					=> 'Vytvoriť emailovú správu',
+	'COMPOSE' => 'Napísať novú',
 
-	'EMAIL_SEND_ERROR'			=> 'Počas odosielania správy sa vyskytla jedna alebo viacero chýb. Skontrolujte záznam o chybách (%sError log%s).',
-	'EMAIL_SENT'				=> 'Správa bola odoslaná.',
-	'EMAIL_SENT_QUEUE'			=> 'Správa bola zaradená do fronty na odosielanie.',
+	'EMAIL_SEND_ERROR' => 'Pri odosielaní e-mailu sa vyskytla jedna alebo viac chýb. Prosím skontrolujte %schybový záznam%s pre detailnú chybovú správu.',
+	'EMAIL_SENT' => 'Táto správa bola odoslaná.',
+	'EMAIL_SENT_QUEUE' => 'Táto správa čaká na odoslanie.',
 
-	'LOG_SESSION'				=> 'Zaznamenať priebeh odosielania (%záznam o chybách%s)',
+	'LOG_SESSION' => 'Zoznam mailových správ v chybovom zázname',
 
-	'SEND_IMMEDIATELY'			=> 'Odoslať ihneď',
-	'SEND_TO_GROUP'				=> 'Odoslať skupine',
-	'SEND_TO_USERS'				=> 'Odoslať užívateľom',
-	'SEND_TO_USERS_EXPLAIN'		=> 'Vloženie užívateľských mien zruší výber skupín. Každé užívateľské meno napíšte na samostatný riadok.',
+	'SEND_IMMEDIATELY' => 'Poslať hneď',
+	'SEND_TO_GROUP'	=> 'Poslať skupine',
+	'SEND_TO_USERS' => 'Poslať užívateľom',
+	'SEND_TO_USERS_EXPLAIN'	=> 'Vložte mená, ktoré nahradia akúkoľvek skupinu vybranú vyššie. Každé užívateľské meno vložte na samostatný riadok.',
 
-	'MAIL_BANNED'				=> 'Odoslať aj užívateľom s udeleným zákazom vstupu',
-	'MAIL_BANNED_EXPLAIN'		=> 'Ak odoslielate hromadný email, tu môžete rozhodnúť o tom, či do adresátov budú zahrnuté aj emailové adresy užívateľov, ktorí majú v súčasnosti udelený zákaz vstupu na portál.',
-	'MAIL_HIGH_PRIORITY'		=> 'vysoká',
-	'MAIL_LOW_PRIORITY'			=> 'nízka',
-	'MAIL_NORMAL_PRIORITY'		=> 'normálna',
-	'MAIL_PRIORITY'				=> 'Priorita',
-	'MASS_MESSAGE'				=> 'Telo správy',
-	'MASS_MESSAGE_EXPLAIN'		=> 'Správu môžete písať len ako prostý text, nie je možné používať značky HTML ani BBCode. Všetky značky (tagy) budú pred odoslaním odstránené.',
+    'MAIL_BANNED' => 'Odoslať e-mail zabanovaným užívateľom',
+    'MAIL_BANNED_EXPLAIN'	=> 'Ak odosielate hromadný e-mail skupine, tu si môžete zvoliť, či e-mail obdržia aj zabanovaní užívatelia.',
+	'MAIL_HIGH_PRIORITY' => 'Vysoká',
+	'MAIL_LOW_PRIORITY'	=> 'Nízka',
+	'MAIL_NORMAL_PRIORITY' => 'Normálna',
+	'MAIL_PRIORITY' => 'Priorita mailu',
+	'MASS_MESSAGE' => 'Vaša správa',
+	'MASS_MESSAGE_EXPLAIN' => 'Prosím, uvedomte si, že vkladáte len čistý text. Akékoľvek značky budú pred odoslaním odstránené.',
 
-	'NO_EMAIL_MESSAGE'			=> 'Správa nič neobsahuje. Musíte vložiť text do tela správy.',
-	'NO_EMAIL_SUBJECT'			=> 'Predmet správy nie je definovaný, musíte zadať predmet správy.',
+	'NO_EMAIL_MESSAGE' => 'Musíte vložiť správu.',
+	'NO_EMAIL_SUBJECT' => 'Musíte špecifikovať predmet pre vašu správy.',
 ));
+?>
