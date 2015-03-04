@@ -10,9 +10,9 @@ Lokalizácia phpBB 3.1.3 do slovenského jazyka
 
 1. Užívateľské rozhranie - dokončené
 
-2. Šablóny emailovej komunikácie portálu s užívateľmi - dokončené
+2. Šablóny e-mailovej komunikácie portálu s užívateľmi - dokončené
 
-3. ACP - nedokončené
+3. ACP - prekladá sa...
 
 4. Sprievodca inštaláciou - dokončené
 
