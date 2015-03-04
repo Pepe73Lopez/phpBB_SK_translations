@@ -33,40 +33,67 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_FILES'							=> 'Jazykové súbory Administrátorského panelu',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'		=> 'Odtiaľto môžete inštalovať alebo mazať jazykové balíky. Východzí jazyk portálu je označený symbolom *.',
+	'ACP_FILES'	=> 'Jazykové súbory administrácie',
+	'ACP_LANGUAGE_PACKS_EXPLAIN' => 'Tu je možné nainštalovať/odstrániť jazykové balíky. Jazyk nastavený ako predvolený je označený hviezdičkou (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'			=> 'Ste si istý, že chcete zmazať “%s”?',
+	'EMAIL_FILES' => 'Šablóny e-mailov',
 
-	'INSTALLED_LANGUAGE_PACKS'			=> 'Nainštalované jazykové balíky',
+	'FILE_CONTENTS' => 'Obsah súboru',
+	'FILE_FROM_STORAGE' => 'Súbor zo zložky pre ukladanie',
 
-	'LANGUAGE_DETAILS_UPDATED'			=> 'Detaily jazykového balíku úspešne upravené.',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Tento jazykový balík už je nainštalovaný.',
-	'LANGUAGE_PACK_DELETED'				=> 'Jazykový balík “%s” bol úspešne zmazaný. Všetkým užívateľom, ktorí používali tento jazykový balík bol jazýkový balík zmenený na východzí jazykový balík portálu.',
-	'LANGUAGE_PACK_DETAILS'				=> 'Úprava detailov jazykového balíku',
-	'LANGUAGE_PACK_INSTALLED'			=> 'Jazykový balík “%s” bol úspešne nainštalovaný.',
-	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Vlastné názvy polí profilu boli prevzaté/skopírované z východzieho jazykového balíku portálu. Zmeňte ich prosím, ak je to potrebné.',
-	'LANGUAGE_PACK_ISO'					=> 'ISO',
-	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokalizované meno',
-	'LANGUAGE_PACK_NAME'				=> 'Meno',
-	'LANGUAGE_PACK_NOT_EXIST'			=> 'Zvolený jazykový balík nenexistuje.',
-	'LANGUAGE_PACK_USED_BY'				=> 'Použitý (vrátane robotov)',
-	'LANGUAGE_VARIABLE'					=> 'Premenná',
-	'LANG_AUTHOR'						=> 'Autor jazykového balíku',
-	'LANG_ENGLISH_NAME'					=> 'Anglický názov',
-	'LANG_ISO_CODE'						=> 'ISO kód',
-	'LANG_LOCAL_NAME'					=> 'Lokalizovaný názov',
+	'HELP_FILES' => 'Súbory pomocníka',
 
-	'MISSING_LANG_FILES'		=> 'Chýbajúce súbory jazykového balíku',
-	'MISSING_LANG_VARIABLES'	=> 'Premenné nedefinované v súboroch jazykového balíku',
+	'INSTALLED_LANGUAGE_PACKS' => 'Nainštalované jazykové balíky',
+	'INVALID_LANGUAGE_PACK' => 'Vybratý jazykový balík je pravdepodobne neplatný. Prosíme, skontrolujte jazykový balík a pokiaľ je potrebné, nahrajte ho znovu.',
+	'INVALID_UPLOAD_METHOD' => 'Vybraná metóda nahrávania je neplatná, prosíme, vyberte inú metódu.',
 
-	'NO_FILE_SELECTED'				=> 'Nevybrali ste súbor jazykového balíku.',
-	'NO_LANG_ID'					=> 'Nevybrali ste jazykový balík.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Nemôžete odstrániť východzí jazykový balík portálu.<br />Ak chcete odstrániť tento jazykový balík, zmeňte najprv východzí jazykový balík portálu.',
-	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Žiadne nenaištalované jazykové balíky',
+	'LANGUAGE_DETAILS_UPDATED' => 'Detaily jazykového balíka boli úspešne aktualizované.',
+	'LANGUAGE_ENTRIES' => 'Jazykové položky',
+	'LANGUAGE_ENTRIES_EXPLAIN' => 'Tu je možné meniť existujúce záznamy v jazyku alebo zmeniť tie ešte preložené.<br /><strong>Poznámka:</strong> Akonáhle zmeníte jazykový súbor, zmeny budú uložené v oddelenej zložke, odkiaľ si ho môžete stiahnuť. Užívatelia zmeny neuvidia, pokiaľ nenahráte nový jazykový súbor na server a neprepíšete pôvodný (tým, že ho nahráte).',
+	'LANGUAGE_FILES' => 'Jazykové súbory',
+	'LANGUAGE_KEY' => 'Jazykový kľúč',
+	'LANGUAGE_PACK_ALREADY_INSTALLED' => 'Tento balík je už nainštalovaný.',
+	'LANGUAGE_PACK_DELETED'	=> 'Jazykový balík <strong>%s</strong> bol úspešne vymazaný. Všetkým užívateľom, ktorý používali tento jazykový balík bol nastavený predvolený balík fóra.',
+	'LANGUAGE_PACK_DETAILS'	=> 'Detaily jazykového balíka',
+	'LANGUAGE_PACK_INSTALLED' => 'Jazykový balík <strong>%s</strong> bol úspešne nainštalovaný.',
+	'LANGUAGE_PACK_CPF_UPDATE' => 'Jazykové reťazce vlastného poľa v profile boli skopírované zo základného jazyka. Prosíme, ak je to potrebné, žmeňte ich.',
+	'LANGUAGE_PACK_ISO'	=> 'ISO',
+	'LANGUAGE_PACK_LOCALNAME' => 'Miestny názov',
+	'LANGUAGE_PACK_NAME' => 'Názov',
+	'LANGUAGE_PACK_NOT_EXIST' => 'Vybraný jazykový balík neexistuje.',
+	'LANGUAGE_PACK_USED_BY' => 'Používaný (vrátane botov)',
+	'LANGUAGE_VARIABLE' => 'Premenná jazyka',
+	'LANG_AUTHOR' => 'Autor jazykového balíka',
+	'LANG_ENGLISH_NAME' => 'Anglický názov',
+	'LANG_ISO_CODE' => 'ISO kód',
+	'LANG_LOCAL_NAME' => 'Miestny názov',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'Nasledujúce súbory jazykového balíku chýbajú v priečinku jazykového balíku “%s”',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'Nasledujúce premennné nie sú v jazykovom balíku “%s” definované',
+	'MISSING_LANGUAGE_FILE' => 'Chýbajúci jazykový súbor: <strong style="color:red">%s</strong>',
+	'MISSING_LANG_VARIABLES' => 'Chýbajúce jazykové premenné',
+	'MODS_FILES' => 'Jazykové súbory MODov',
 
-	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Odinštalované jazykové balíky',
+	'NO_FILE_SELECTED' => 'Nešpecifikovali ste súbor jazyka.',
+	'NO_LANG_ID' => 'Nešpecifikovali ste jazykový balík.',
+	'NO_REMOVE_DEFAULT_LANG' => 'Nemôžete vymazať predvolený jazykový balík.<br />Pokiaľ ho chcete vymazať, zmeňte najprv predvolený jazyk fóra.',
+	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Žiadne odinštalované jazykové balíky',
+
+	'REMOVE_FROM_STORAGE_FOLDER' => 'Vymazanie z adresára pre ukladanie',
+
+	'SELECT_DOWNLOAD_FORMAT' => 'Vyber si formát sťahovania',
+	'SUBMIT_AND_DOWNLOAD' => 'Potvrdiť a stiahnuť súbor',
+	'SUBMIT_AND_UPLOAD'	=> 'Potvrdiť a nahrať súbor',
+
+	'THOSE_MISSING_LANG_FILES' => 'Nasledujúce súbory jazyka chýbajú v adresári jazyka %s',
+	'THOSE_MISSING_LANG_VARIABLES' => 'Nasledujúce premenné jazyka chýbajú v jazykovom balíku <strong>%s</strong>',
+
+	'UNINSTALLED_LANGUAGE_PACKS' => 'Odinštalované jazykové balíky',
+
+	'UNABLE_TO_WRITE_FILE' => 'Súbor nemôže byť zapísaný do %s.',
+	'UPLOAD_COMPLETED' => 'Nahratie bolo úspešné ukončené.',
+	'UPLOAD_FAILED' => 'Nahrávanie z neznámych príčin zlyhalo. Patričný súbor musíte prepísať manuálne.',
+	'UPLOAD_METHOD' => 'Metóda nahrávania',
+	'UPLOAD_SETTINGS' => 'Nastavenia nahrávania',
+
+	'WRONG_LANGUAGE_FILE' => 'Vybraný jazykový súbor je neplatný.',
 ));
+?>
