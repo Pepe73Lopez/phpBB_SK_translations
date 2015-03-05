@@ -2,6 +2,7 @@
 /**
 *
 * @package language
+* @authors PepeLopez, Fonzi
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -38,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING' => 'Chýbajúca hodnota argumentu #%1$s: <strong>%3$s</strong> v triede <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED' => 'Nebol špecifikovaný žiadny ovládač.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED' => 'Pre ovládač nebola špecifikovaná žiadna metóda.',
-	'CONTROLLER_SERVICE_UNDEFINED' => 'Služba pre ovládač "<strong>%s</strong>" nebola v ./config/services.yml definovaná.',
+	'CONTROLLER_NOT_SPECIFIED'          => 'Nebol špecifikovaný žiadny ovládač.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'   => 'Pre ovládač nebola špecifikovaná žiadna metóda.',
+	'CONTROLLER_SERVICE_UNDEFINED'      => 'Služba pre ovládač "<strong>%s</strong>" nebola v ./config/services.yml definovaná.',
 ));
