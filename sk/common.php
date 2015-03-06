@@ -1434,12 +1434,12 @@ $lang = array_merge($lang, array(
 
 	// The value is only an example and will get replaced by the current time on view
 	'dateformats' => array(
-          'D, j. F Y, H:i' => 'So, 1. Januára 2015, 13:37',
-          'l, j. F Y, H:i' => 'Sobota, 1. Januára 2015, 13:37',
-          'j. F Y, H:i' => '1. Januára 2015, 13:37',
-          '|D, j. F Y|, H:i' => 'Dnes, 13:37 / So, 1. Januára 2015, 13:37',
-          '|l, j. F Y|, H:i' => 'Dnes, 13:37 / Sobota, 1. Januára 2015, 13:37',
-          '|j. F Y|, H:i' => 'Dnes, 13:37 / 1. Januára 2015, 13:37',
+		'D, j. F Y, H:i'	=> 'So, 1. Januára 2015, 13:37',
+		'l, j. F Y, H:i'	=> 'Sobota, 1. Januára 2015, 13:37',
+		'j. F Y, H:i'		=> '1. Januára 2015, 13:37',
+		'|D, j. F Y|, H:i'	=> 'Dnes, 13:37 / So, 1. Januára 2015, 13:37',
+		'|l, j. F Y|, H:i'	=> 'Dnes, 13:37 / Sobota, 1. Januára 2015, 13:37',
+		'|j. F Y|, H:i'		=> 'Dnes, 13:37 / 1. Januára 2015, 13:37',
 	),
 
 	// The default dateformat which will be used on new installs in this language
