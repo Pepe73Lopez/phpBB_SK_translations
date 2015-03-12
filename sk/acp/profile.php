@@ -1,6 +1,9 @@
 <?php
 /**
 *
+*
+* @authors PepeLopez, Fonzi
+*
 * @package language
 * @copyright (c) 2007 phpBB Group
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -34,24 +37,24 @@ if (empty($lang) || !is_array($lang))
 
 // Custom profile fields
 $lang = array_merge($lang, array(
-	'ADDED_PROFILE_FIELD'	=> 'Vlastné pole v profile bolo úspešne pridané.',
-	'ALPHA_ONLY'			=> 'Iba alfanumerické znaky',
-	'ALPHA_SPACERS'			=> 'Alfanumerické znaky a medzery',
-	'ALWAYS_TODAY'			=> 'Vždy aktuálny dátum',
+	'ADDED_PROFILE_FIELD'			=> 'Vlastné pole v profile bolo úspešne pridané.',
+	'ALPHA_ONLY'					=> 'Iba alfanumerické znaky',
+	'ALPHA_SPACERS'					=> 'Alfanumerické znaky a medzery',
+	'ALWAYS_TODAY'					=> 'Vždy aktuálny dátum',
 
-	'BOOL_ENTRIES_EXPLAIN'	=> 'Vložte svoje možnosti sem',
-	'BOOL_TYPE_EXPLAIN'		=> 'Zvoľte typ, buď zaškrtávacie pole alebo prepínateľné tlačidlo. Zaškrtávacie políčko sa zobrazí, iba ak je vybrané pre daného užívateľa. V tom prípade bude použitá <strong>druhá</strong> jazyková možnosť. Prepínacie tlačítka sa zobrazia vždy bez ohľadu na ich hodnotu.',
-
-	'CHANGED_PROFILE_FIELD'		=> 'Pole v profile bolo úspešne zmenené',
-	'CHARS_ANY'					=> 'Akýkoľvek znak',
-	'CHECKBOX'					=> 'Zaškrtávacie pole',
-	'COLUMNS'					=> 'Stĺpce',
-	'CP_LANG_DEFAULT_VALUE'		=> 'Prednastavená hodnota',
-	'CP_LANG_EXPLAIN'			=> 'Popis poľa',
-	'CP_LANG_EXPLAIN_EXPLAIN'	=> 'Vysvetlenie poľa pre užívateľa',
-	'CP_LANG_NAME'				=> 'Názov/popis poľa zobrazený užívateľovi',
-	'CP_LANG_OPTIONS'			=> 'Možnosti',
-	'CREATE_NEW_FIELD'			=> 'Vytvoriť nové pole',
+	'BOOL_ENTRIES_EXPLAIN'			=> 'Vložte svoje možnosti sem',
+	'BOOL_TYPE_EXPLAIN'				=> 'Zvoľte typ, buď zaškrtávacie pole alebo prepínateľné tlačidlo. Zaškrtávacie políčko sa zobrazí, iba ak je vybrané pre daného užívateľa. V tom prípade bude použitá <strong>druhá</strong> jazyková možnosť. Prepínacie tlačítka sa zobrazia vždy bez ohľadu na ich hodnotu.',
+	
+	'CHANGED_PROFILE_FIELD'			=> 'Pole v profile bolo úspešne zmenené',
+	'CHARS_ANY'						=> 'Akýkoľvek znak',
+	'CHECKBOX'						=> 'Zaškrtávacie pole',
+	'COLUMNS'						=> 'Stĺpce',
+	'CP_LANG_DEFAULT_VALUE'			=> 'Prednastavená hodnota',
+	'CP_LANG_EXPLAIN'				=> 'Popis poľa',
+	'CP_LANG_EXPLAIN_EXPLAIN'		=> 'Vysvetlenie poľa pre užívateľa',
+	'CP_LANG_NAME'					=> 'Názov/popis poľa zobrazený užívateľovi',
+	'CP_LANG_OPTIONS'				=> 'Možnosti',
+	'CREATE_NEW_FIELD'				=> 'Vytvoriť nové pole',
 	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'Minimálne jedno vlastné pole v profile ešte nebolo preložené. Prosíme, vyplňte požadované informácie kliknutím na odkaz „Preložiť“.',
 
 	'DEFAULT_ISO_LANGUAGE'			=> 'Základný jazyk [%s]',
@@ -65,7 +68,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Pokiaľ je táto možnosť povolená, pole bude zobrazené aj pri registrácii.',
 	'DISPLAY_ON_VT'					=> 'Zobrazit v témach',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Ak je táto možnosť povolená, pole bude zobrazené v mini-profile v zobrazení tém.',
-  'DISPLAY_PROFILE_FIELD'			=> 'Verejne zobraziť pole v profile',
+	'DISPLAY_PROFILE_FIELD'			=> 'Verejne zobraziť pole v profile',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Položka bude zobrazená na všetkých miestach, ktoré sú povolené v nastaveniach zaťaženia. Nastavenie tejto možnosti na „nie“ skryje toto pole na stránkach tém, profilov a v zozname členov.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Vložte možnosti, každú možnosť na nový riadok.',
 
@@ -75,56 +78,56 @@ $lang = array_merge($lang, array(
 	'ENTRIES'						=> 'Možnosti',
 	'EVERYTHING_OK'					=> 'Všetko v poriadku',
 
-	'FIELD_BOOL'				=> 'Booleovský (Áno/Nie)',
- 	'FIELD_DATE'				=> 'Dátum',
-	'FIELD_DESCRIPTION'			=> 'Popis poľa',
-	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Vysvetlenie poľa, ktoré bude zobrazené užívateľom',
-	'FIELD_DROPDOWN'			=> 'Rolovacie menu',
-	'FIELD_IDENT'				=> 'Označenie poľa',
-	'FIELD_IDENT_ALREADY_EXIST'	=> 'Vybrané označenie poľa už existuje, vyberte prosím iné označenie.',
-	'FIELD_IDENT_EXPLAIN'		=> 'Označenie poľa je názov, pod ktorým bude pole uložené v databáze a štýloch.',
-	'FIELD_INT'					=> 'Čísla',
-	'FIELD_LENGTH'				=> 'Dĺžka vstupného poľa',
-	'FIELD_NOT_FOUND'			=> 'Pole profilu nebolo nájdené',
-	'FIELD_STRING'				=> 'Jedno textové pole',
-	'FIELD_TEXT'				=> 'Textové pole',
-	'FIELD_TYPE'				=> 'Typ poľa',
-	'FIELD_TYPE_EXPLAIN'		=> 'Typ poľa nebudete môcť zmeniť neskôr.',
-	'FIELD_VALIDATION'			=> 'Potvrdenie položky',
-	'FIRST_OPTION'				=> 'Prvá možnosť',
+	'FIELD_BOOL'					=> 'Booleovský (Áno/Nie)',
+ 	'FIELD_DATE'					=> 'Dátum',
+	'FIELD_DESCRIPTION'				=> 'Popis poľa',
+	'FIELD_DESCRIPTION_EXPLAIN'		=> 'Vysvetlenie poľa, ktoré bude zobrazené užívateľom',
+	'FIELD_DROPDOWN'				=> 'Rolovacie menu',
+	'FIELD_IDENT'					=> 'Označenie poľa',
+	'FIELD_IDENT_ALREADY_EXIST'		=> 'Vybrané označenie poľa už existuje, vyberte prosím iné označenie.',
+	'FIELD_IDENT_EXPLAIN'			=> 'Označenie poľa je názov, pod ktorým bude pole uložené v databáze a štýloch.',
+	'FIELD_INT'						=> 'Čísla',
+	'FIELD_LENGTH'					=> 'Dĺžka vstupného poľa',
+	'FIELD_NOT_FOUND'				=> 'Pole profilu nebolo nájdené',
+	'FIELD_STRING'					=> 'Jedno textové pole',
+	'FIELD_TEXT'					=> 'Textové pole',
+	'FIELD_TYPE'					=> 'Typ poľa',
+	'FIELD_TYPE_EXPLAIN'			=> 'Typ poľa nebudete môcť zmeniť neskôr.',
+	'FIELD_VALIDATION'				=> 'Potvrdenie položky',
+	'FIRST_OPTION'					=> 'Prvá možnosť',
 
 	'HIDE_PROFILE_FIELD'			=> 'Skryť pole v profile',
 	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Skryje pole v profile pred všetkými užívateľmi okrem samotného užívateľa, administrátorov a moderátorov, ktorí stále môžu vidieť toto pole. Ak je možnosť Zobraziť v užívateľskom kontrolnom paneli vypnutá, užívateľ nebude môcť vidieť alebo zmeniť toto pole, a tak toto pole budú môcť zmeniť len administrátori.',
 
-	'INVALID_CHARS_FIELD_IDENT'	=> 'Označenie poľa môže obsahovať iba malé a-z a _',
-	'INVALID_FIELD_IDENT_LEN'	=> 'Označenie poľa môže mať najviac 17 znakov',
-	'ISO_LANGUAGE'				=> 'Jazyk [%s]',
+	'INVALID_CHARS_FIELD_IDENT'		=> 'Označenie poľa môže obsahovať iba malé a-z a _',
+	'INVALID_FIELD_IDENT_LEN'		=> 'Označenie poľa môže mať najviac 17 znakov',
+	'ISO_LANGUAGE'					=> 'Jazyk [%s]',
 
-	'LANG_SPECIFIC_OPTIONS'		=> 'Špecifické nastavenia jazyka [<strong>%s</strong>]',
+	'LANG_SPECIFIC_OPTIONS'			=> 'Špecifické nastavenia jazyka [<strong>%s</strong>]',
+	
+	'MAX_FIELD_CHARS'				=> 'Maximálny počet znakov',
+	'MAX_FIELD_NUMBER'				=> 'Najvyššie povolené číslo',
+	'MIN_FIELD_CHARS'				=> 'Minimálny počet znakov',
+	'MIN_FIELD_NUMBER'				=> 'Najmenšie povolené číslo',
+	
+	'NO_FIELD_ENTRIES'				=> 'Neboli zadané žiadne záznamy',
+	'NO_FIELD_ID'					=> 'Nebolo zvolené id poľa',
+	'NO_FIELD_TYPE'					=> 'Nebol zvolený typ poľa',
+	'NO_VALUE_OPTION'				=> 'Nastavenie sa nerovná vloženej hodnote',
+	'NO_VALUE_OPTION_EXPLAIN'		=> 'Hodnota pre neplatný vstup. Ak je pole vyžadované, užívateľ dostane chybovú hlášku ak si vyberie možnosť, ktorá je vybratá tu.',
+	'NUMBERS_ONLY'					=> 'Iba čísla (0-9)',
 
-	'MAX_FIELD_CHARS'		=> 'Maximálny počet znakov',
-	'MAX_FIELD_NUMBER'		=> 'Najvyššie povolené číslo',
-	'MIN_FIELD_CHARS'		=> 'Minimálny počet znakov',
-	'MIN_FIELD_NUMBER'		=> 'Najmenšie povolené číslo',
+	'PROFILE_BASIC_OPTIONS'			=> 'Základné možnosti',
+	'PROFILE_FIELD_ACTIVATED'		=> 'Pole v profile úspešne aktivované.',
+	'PROFILE_FIELD_DEACTIVATED'		=> 'Pole v profile úspešne deaktivované.',
+	'PROFILE_LANG_OPTIONS'			=> 'Špecifické nastavenia jazyka',
+	'PROFILE_TYPE_OPTIONS'			=> 'Špecifické nastavenia typu položky',
 
-	'NO_FIELD_ENTRIES'			=> 'Neboli zadané žiadne záznamy',
-	'NO_FIELD_ID'				=> 'Nebolo zvolené id poľa',
-	'NO_FIELD_TYPE'				=> 'Nebol zvolený typ poľa',
-	'NO_VALUE_OPTION'			=> 'Nastavenie sa nerovná vloženej hodnote',
-	'NO_VALUE_OPTION_EXPLAIN'	=> 'Hodnota pre neplatný vstup. Ak je pole vyžadované, užívateľ dostane chybovú hlášku ak si vyberie možnosť, ktorá je vybratá tu.',
-	'NUMBERS_ONLY'				=> 'Iba čísla (0-9)',
-
-	'PROFILE_BASIC_OPTIONS'		=> 'Základné možnosti',
-	'PROFILE_FIELD_ACTIVATED'	=> 'Pole v profile úspešne aktivované.',
-	'PROFILE_FIELD_DEACTIVATED'	=> 'Pole v profile úspešne deaktivované.',
-	'PROFILE_LANG_OPTIONS'		=> 'Špecifické nastavenia jazyka',
-	'PROFILE_TYPE_OPTIONS'		=> 'Špecifické nastavenia typu položky',
-
-	'RADIO_BUTTONS'				=> 'Prepínacie tlačítka',
-	'REMOVED_PROFILE_FIELD'		=> 'Pole v profile úspešne odstránené.',
-	'REQUIRED_FIELD'			=> 'Povinné pole',
-	'REQUIRED_FIELD_EXPLAIN'	=> 'Vynútiť vyplnenie tohto poľa v profile užívateľom alebo administrátorom. Ak je táto možnosť vypnutá pri registrácii, pole bude požadované len ak bude užívateľ upravovať svoj profil.',
-	'ROWS'						=> 'Riadky',
+	'RADIO_BUTTONS'					=> 'Prepínacie tlačítka',
+	'REMOVED_PROFILE_FIELD'			=> 'Pole v profile úspešne odstránené.',
+	'REQUIRED_FIELD'				=> 'Povinné pole',
+	'REQUIRED_FIELD_EXPLAIN'		=> 'Vynútiť vyplnenie tohto poľa v profile užívateľom alebo administrátorom. Ak je táto možnosť vypnutá pri registrácii, pole bude požadované len ak bude užívateľ upravovať svoj profil.',
+	'ROWS'							=> 'Riadky',
 
 	'SAVE'							=> 'Uložiť',
 	'SECOND_OPTION'					=> 'Druhá možnosť',
@@ -147,7 +150,7 @@ $lang = array_merge($lang, array(
 	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'Vložte prednastavený text, ktorý sa má zobraziť. Ak nechcete zobraziť žiadny text, nechajte toto pole prázdne.',
 	'TRANSLATE'						=> 'Preložiť',
 
-	'USER_FIELD_NAME'	=> 'Názov/popis poľa, ktorý sa zobrazí užívateľovi',
+	'USER_FIELD_NAME'				=> 'Názov/popis poľa, ktorý sa zobrazí užívateľovi',
 
 	'VISIBILITY_OPTION'				=> 'Možnosti zobrazenia',
 ));
