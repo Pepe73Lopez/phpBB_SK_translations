@@ -242,7 +242,7 @@ $lang = array_merge($lang, array(
 	'FORGOT_PASS'											=> 'Zabudnuté heslo',
 	'FORM_INVALID'											=> 'Odosielaný formulár je neplatný. Skúste odoslať znovu.',
 	'FORUM'													=> 'Fórum',
-	'FORUMS'												=> 'Fóra',
+	'FORUMS'												=> 'Portál',
 	'FORUMS_MARKED'											=> 'Všetky fóra boli označené ako prečítané.',
 	'FORUM_CAT'												=> 'Kategória fóra',
 	'FORUM_INDEX'											=> 'Obsah portálu',
@@ -308,13 +308,13 @@ $lang = array_merge($lang, array(
   	    2 => '| %d neregistrovaní',
         3 => '| %d neregistrovaných',
 	),
-	'G_ADMINISTRATORS'										=> 'Administrátori',
-	'G_BOTS'												=> 'Boti',
-	'G_GUESTS'												=> 'Neregistrovaní',
-	'G_REGISTERED'											=> 'Registrovaní užívatelia',
-	'G_REGISTERED_COPPA'									=> 'Registrovaní COPPA užívatelia (mladistvý)',
-	'G_GLOBAL_MODERATORS'									=> 'Globálny moderátori',
-	'G_NEWLY_REGISTERED'									=> 'Novo registrovaní užívatelia',
+	'G_ADMINISTRATORS'										=> 'Administrátor',
+	'G_BOTS'												=> 'Bot',
+	'G_GUESTS'												=> 'Neregistrovaný',
+	'G_REGISTERED'											=> 'Užívateľ',
+	'G_REGISTERED_COPPA'									=> 'Registrovaný COPPA užívateľ',
+	'G_GLOBAL_MODERATORS'									=> 'Moderátor',
+	'G_NEWLY_REGISTERED'									=> 'Novo registrovaný užívateľ',
 
 	'HIDDEN_USERS_ONLINE' => array(
         0 => '',
@@ -507,7 +507,7 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_RESPONSE_CODE'								=> 'Server neodpovedá.',
 	'NO_EMAIL_SUBJECT'										=> 'Nebol zadaný predmet správy.',
 	'NO_FORUM'												=> 'Zvolené fórum nie je dostupné.',
-	'NO_FORUMS'												=> 'Vstup do fóra je iba pre prihlásených.',
+	'NO_FORUMS'												=> 'Vstup na portál je iba pre prihlásených.',
 	'NO_GROUP'												=> 'Požadovaná skupina nie je dostupná alebo neexistuje.',
 	'NO_GROUP_MEMBERS'										=> 'Táto skupina nemá žiadnych členov.',
 	'NO_IPS_DEFINED'										=> 'Neboli definované žiadne IP adresy ani názvy hostiteľov',
@@ -1434,16 +1434,31 @@ $lang = array_merge($lang, array(
 
 	// The value is only an example and will get replaced by the current time on view
 	'dateformats' => array(
-		'D, j. F Y, H:i'	=> 'So, 1. Januára 2015, 13:37',
-		'l, j. F Y, H:i'	=> 'Sobota, 1. Januára 2015, 13:37',
-		'j. F Y, H:i'		=> '1. Januára 2015, 13:37',
-		'|D, j. F Y|, H:i'	=> 'Dnes, 13:37 / So, 1. Januára 2015, 13:37',
-		'|l, j. F Y|, H:i'	=> 'Dnes, 13:37 / Sobota, 1. Januára 2015, 13:37',
-		'|j. F Y|, H:i'		=> 'Dnes, 13:37 / 1. Januára 2015, 13:37',
+          'D, j. F Y, H:i' => 'So, 1. Januára 2015, 13:37',
+          'l, j. F Y, H:i' => 'Sobota, 1. Januára 2015, 13:37',
+          'j. F Y, H:i' => '1. Januára 2015, 13:37',
+          '|D, j. F Y|, H:i' => 'Dnes, 13:37 / So, 1. Januára 2015, 13:37',
+          '|l, j. F Y|, H:i' => 'Dnes, 13:37 / Sobota, 1. Januára 2015, 13:37',
+          '|j. F Y|, H:i' => 'Dnes, 13:37 / 1. Januára 2015, 13:37',
 	),
 
 	// The default dateformat which will be used on new installs in this language
 	// Translators should change this if a the usual date format is different
 	'default_dateformat' => 'j. F Y, H:i', // Mon Jan 01, 2007 1:37 pm
+));
+
+	// Custom
+$lang = array_merge($lang, array(
+	'INFO_SECURITY' 										=> '<div style="text-align: center; background: #FFD; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;">Kvôli ochrane vášho súkromia sa uistite, že do spätnej väzby nezadávate žiadne osobné údaje.</div>',
+	'USER_MENU'												=> 'Užívateľská ponuka',
+	'LOGGED_IN'												=> 'Ste prihlásený/á ako',
+	'WITH_YOUR_ID'											=> 's Vaším ID',
+	'ENFORCE_LOGOUT'										=> 'Vynútiť odhlásenie',
+	'LOGOUT_DIALOG'											=> 'Naozaj sa chcete odhlásiť?',
+	'NOT_LOGIN'												=> '<span style="font-weight: bold; color: #FF0000;">Nie ste prihlásený, prosím <a href="https://pokecaj.sk/ucp.php?mode=login">prihláste sa</a> alebo sa <a href="https://pokecaj.sk/ucp.php?mode=register">zaregistrujte</a>.<br />Prihlásiť sa môžete aj pomocou Vašich obľúbených sociálnych sietií...</span>',
+	'LOGIN_ERROR'											=> '<span style="font-size: 13px; font-weight: bold; color: #FF0000;">Ak máte problémy prihlásiť sa, tak nezúfajte. Stačí premazať cookies vo vašom prehliadači, urýchlite to kliknutím na tento <a target="_blank" href="https://pokecaj.sk/ucp.php?mode=delete_cookies">odkaz</a>.</span>',
+	'INFO_SECURITY'											=> '<p style="text-align: center; background: #FFD; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;">Kvôli ochrane Vášho súkromia sa uistite, či nezadávate žiadne osobné údaje.</p><br /><br />',	
+	'CURRENT_IP'											=> 'Aktuálne ste pripojený s IP adresou:',
+	'MEMBERLIST_REGISTER_IP'								=> 'Registrovaná IP',
 ));
 ?>
