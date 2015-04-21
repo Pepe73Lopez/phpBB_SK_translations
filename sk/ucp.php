@@ -58,8 +58,6 @@ $lang = array_merge($lang, array(
 
 // Common language entries
 $lang = array_merge($lang, array(
-// Common language entries
-$lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'					=> 'Váš účet bol aktivovaný, ďakujeme za registráciu.',
 	'ACCOUNT_ACTIVE_ADMIN'				=> 'Váš účet bol práve aktivovaný.',
 	'ACCOUNT_ACTIVE_PROFILE'			=> 'Váš účet bol úspešne znovu aktivovaný.',
