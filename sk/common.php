@@ -1446,19 +1446,4 @@ $lang = array_merge($lang, array(
 	// Translators should change this if a the usual date format is different
 	'default_dateformat' => 'j. F Y, H:i', // Mon Jan 01, 2007 1:37 pm
 ));
-
-	// Custom
-$lang = array_merge($lang, array(
-	'INFO_SECURITY' 										=> '<div style="text-align: center; background: #FFD; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;">Kvôli ochrane vášho súkromia sa uistite, že do spätnej väzby nezadávate žiadne osobné údaje.</div>',
-	'USER_MENU'												=> 'Užívateľská ponuka',
-	'LOGGED_IN'												=> 'Ste prihlásený/á ako',
-	'WITH_YOUR_ID'											=> 's Vaším ID',
-	'ENFORCE_LOGOUT'										=> 'Vynútiť odhlásenie',
-	'LOGOUT_DIALOG'											=> 'Naozaj sa chcete odhlásiť?',
-	'NOT_LOGIN'												=> '<span style="font-weight: bold; color: #FF0000;">Nie ste prihlásený, prosím <a href="https://pokecaj.sk/ucp.php?mode=login">prihláste sa</a> alebo sa <a href="https://pokecaj.sk/ucp.php?mode=register">zaregistrujte</a>.<br />Prihlásiť sa môžete aj pomocou Vašich obľúbených sociálnych sietií...</span>',
-	'LOGIN_ERROR'											=> '<span style="font-size: 13px; font-weight: bold; color: #FF0000;">Ak máte problémy prihlásiť sa, tak nezúfajte. Stačí premazať cookies vo vašom prehliadači, urýchlite to kliknutím na tento <a target="_blank" href="https://pokecaj.sk/ucp.php?mode=delete_cookies">odkaz</a>.</span>',
-	'INFO_SECURITY'											=> '<p style="text-align: center; background: #FFD; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;">Kvôli ochrane Vášho súkromia sa uistite, či nezadávate žiadne osobné údaje.</p><br /><br />',	
-	'CURRENT_IP'											=> 'Aktuálne ste pripojený s IP adresou:',
-	'MEMBERLIST_REGISTER_IP'								=> 'Registrovaná IP',
-));
 ?>
