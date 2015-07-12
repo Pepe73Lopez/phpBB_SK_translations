@@ -56,59 +56,6 @@ $lang = array_merge($lang, array(
 	',
 ));
 
-<?php
-/**
-*
-*
-* @authors PepeLopez, Fonzi
-*
-* @package language
-* @copyright (c) 2007 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
-
-/**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
-	exit;
-}
-
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
-}
-
-// DEVELOPERS PLEASE NOTE
-//
-// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
-//
-// Placeholders can now contain order information, e.g. instead of
-// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
-// translators to re-order the output of data while ensuring it remains correct
-//
-// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
-// equally where a string contains only two placeholders which are used to wrap text
-// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-
-// Privacy policy and T&C
-$lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT' => '<div style="text-align: justify; font-size: 15px;">Vstupom na “%1$s” (ďalej len “my”, “nás”, “náš”, “%1$s”, “%2$s”), súhlasíte s právnym vymedzením nasledujúcich podmienok. Ak nesúhlasíte s právnym vymedzením všetkých nasledujúcich podmienok, potom, prosím, nevstupujte a/alebo nepoužívajte “%1$s”. Tieto podmienky môžme kedykoľvek zmeniť a my spravíme všetko preto, aby sme Vás informovali o týchto zmenách, avšak bude rozumné, ak tieto podmienky budete pravidelne kontrolovať počas pravidelného používania “%1$s”, pretože musíte súhlasiť s každou zmenou týchto podmienok, ktoré budú aktualizované a/alebo upravené.<br />
-	<br />
-	Súhlasíte s tým, že nebudete odosielať žiadne urážlivé, obscénne, vulgárne, ohováracie, nenávistné, výhražné, sexuálne orientované príspevky alebo posielať akýkoľvek iný materiál, ktorý môže porušovať ktorékoľvek zákony krajiny, v ktorej sa nachádzate Vy či v ktorej sa nachádza “%1$s” alebo medzinárodné právo. Takéto konanie môže viesť k okamžitému a trvalému vylúčeniu, s upozornením Vášho poskytovateľa internetového pripojenia, ak sa budeme domnievať, že to bude od nás požadované. IP adresa všetkých Vašich príspevkov je zaznamenávaná na pomoc vo vymožiteľnosti týchto podmienok. Súhlasíte s tým, že “%1$s” má právo kedykoľvek odstrániť, upraviť, presunúť alebo uzamknúť ktorúkoľvek tému, ktorá by porušovala tieto podmienky. Ako užívateľ, súhlasíte s ukladaním do našej databáze akejkoľvek informácie, ktorú vložíte. Hoci táto informácia nebude zverejnená/poskytnutá žiadnej tretej strane bez Vášho súhlasu.</div>
-	',
-	'PRIVACY_POLICY' => '<div style="text-align: justify; font-size: 15px;">Vaše údaje sú zhromažďované dvomi spôsobmi. Najskôr, prehliadanie “%1$s” spôsobí, že vytvorí určitý počet cookies, čo sú malé textové súbory, ktoré sú stiahnuté do Vášho PC na miesto, kde Váš internetový prehliadač ukladá dočasné súbory. Prvé dve cookies obsahujú len informáciu na identifikáciu užívateľa (ďalej len “užívateľovo id”) a informáciu na identifikáciu anonymného spojenia (ďalej len “id spojenia”), ktoré Vám automaticky priradí systém. Tretí cookie bude vytvorený vtedy, keď zobrazíte témy na “%1$s” a tento je použitý na rozpoznanie, ktoré témy už boli zobrazené, čím sa zvýši komfort Vášho prehliadania.<br />
-	<br />
-	Môžme tiež vytvárať cookies, počas prehliadania “%1$s”, avšak tieto sú mimo rámec tohto dokumentu. Druhý spôsob, ktorým zhromažďujeme Vaše údaje, je prostredníctvom toho, čo nám sami odošlete. Toto môže byť, avšak nielen: odoslaním ako anonymný užívateľ (ďalej len “anonymné príspevky”), registrovaný na “%1$s” (ďalej len “Vaše konto”) a Vami odoslané príspevky po registrácii a počas prihlásenia (ďalej len “Vaše príspevky”).<br />
-	<br />
-	Vaše konto bude bezpodmienečne obsahovať minimálne jednoznačne identifikovateľné meno (ďalej len “Vaše užívateľské meno”), osobné heslo pre prihlásenie sa na Vaše konto  (ďalej len “Vaše heslo”) a osobnú, platnú e-mailovú adresu (ďalej len “Váš e-mail”). Vaše údaje pre Vaše konto na “%1$s” sú chránené zákonom na ochranu údajov a dát, ktoré sú v platnosti v krajine kde sme umiestnení. Akýkoľvek údaj navyše Vášho užívateľského mena, Vášho hesla a Vášho e-mailu, ktorý je požadovaný “%1$s” počas registrácie vybočujú z toho, čo považujeme za povinné a čo za dobrovoľné. Vo všetkých prípadoch, máte možnosť určiť, ktorý údaj Vášho konta bude verejne zobrazený. Okrem toho, vo Vašom konte, máte možnosť zvoliť si alebo zrušiť možnosť automaticky generovaných e-mailov.<br />
-	<br />
-	Vaše heslo je šifrované (jednosmerný hash), takže je zabezpečené. Napriek tomu, je odporúčané, aby ste nepoužívali rovnaké heslo na rôznych internetových stránkach. Vaše heslo je možnosťou pre prístup k Vášmu kontu na “%1$s”, takže si ho, prosím, chráňte. Nik v spojitosti s “%1$s”, akoukoľvek 3. stranou, nie je za žiadnych okolností oprávnený žiadať od Vás Vaše heslo. V prípade, že zabudnete svoje heslo na prístup k Vášmu kontu, môžete použiť funkciu “Zabudol som svoje heslo”. Tento proces bude od Vás vyžadovať vloženie Vášho užívateľského mena a Vášho e-mailu, potom systém vygeneruje nové heslo, ktoré Vám znovu umožní prístup k Vášmu kontu.</div>
-	',
-));
-
 // Common language entries
 $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'					=> 'Váš účet bol aktivovaný, ďakujeme za registráciu.',
