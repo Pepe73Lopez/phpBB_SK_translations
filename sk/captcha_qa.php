@@ -59,4 +59,4 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> 'Vyplňte všetky polia a vložte aspoň jednu odpoveď.',
 	'QA_LAST_QUESTION'			=> 'Nemôžete zmazať všetky odpovede, kým je plugin aktívny.',
-));´
+));
