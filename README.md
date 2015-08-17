@@ -56,7 +56,3 @@ užívatelia môžu byť:
 - neregistrovaní (v acp tiež anonym)
 - novo registrovaní
 - COPPA = mladiství
-  
-Podporte novo zrodený projekt pokecaj.sk svojim Likom
-https://www.facebook.com/pages/pokecajsk/1494487154152925
-Ďakujeme
