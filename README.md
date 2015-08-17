@@ -1,6 +1,6 @@
-# phpBB-3.1.3-SK
+# phpBB-3.1.5-SK
 ----------------
-Lokalizácia phpBB 3.1.3 do slovenského jazyka
+Lokalizácia phpBB 3.1.5 do slovenského jazyka
 
 <b>Kto chce prispieť nech pošle kontakt pridám ho ako contributora.</b>
 
