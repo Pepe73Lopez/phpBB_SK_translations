@@ -1,6 +1,8 @@
-# phpBB-3.1.3-SK
-----------------
-Lokalizácia phpBB 3.1.3 do slovenského jazyka
+# phpBB-SK-Translations
+-----------------------
+Lokalizácia phpBB do slovenského jazyka
+branch master: phpBB 3.1.3
+branch 3.1.5: phpBB 3.1.5
 
 <b>Kto chce prispieť nech pošle kontakt pridám ho ako contributora.</b>
 
