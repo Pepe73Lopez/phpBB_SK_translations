@@ -2,7 +2,7 @@
 /**
 *
 *
-* @authors PepeLopez, Fonzi
+* @authors phpBB3.sk, PepeLopez, Fonzi
 *
 * @package language
 * @copyright (c) 2007 phpBB Group
@@ -51,6 +51,13 @@ $lang = array_merge($lang, array(
 	'MIGRATION_SCHEMA_DONE'				=> 'Nainštalovaná schéma: %1$s; Čas: %2$.2f sek.',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Inštalácia schémy: %s.',
 	
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Migrácia je neplatná. V príkaze if chýba podmienka.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Migrácia je neplatná. V príkaze if chýba platné volanie kroku migrácie.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Migrácia je neplatná. Vlastné volatelnou funkciu nemožno volať.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Migrácia je neplatná. Bol zistený neznámy typ migračného nástroja.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Migrácia je neplatná. Bol zistený nedefinovaný migračný nástroj.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Migrácia je neplatná. Bola zistená nedefinovaná metóda migračného nástroja.',
+
 	'MODULE_ERROR'						=> 'Chyba počas vytvárania modulu: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Chýbajúci informačný súbor modulu: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Potrebný modul nenájdený: %s',

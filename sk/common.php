@@ -2,7 +2,7 @@
 /**
 *
 *
-* @authors PepeLopez, Fonzi
+* @authors phpBB3.sk, PepeLopez, Fonzi
 *
 * @package language
 * @copyright (c) 2007 phpBB Group
@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'										=> 'Slovenský preklad - PepeLopez, Fonzi (pokecaj.sk',
+	'TRANSLATION_INFO'										=> 'Slovenský preklad - <a href="http://www.phpbb3.sk">phpBB3.sk</a>',
 	'DIRECTION'												=> 'ltr',
 	'DATE_FORMAT'											=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'										=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)

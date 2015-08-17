@@ -2,7 +2,7 @@
 /**
 *
 *
-* @authors PepeLopez, Fonzi
+* @authors phpBB3.sk, PepeLopez, Fonzi
 *
 * @package language
 * @copyright (c) 2007 phpBB Group
