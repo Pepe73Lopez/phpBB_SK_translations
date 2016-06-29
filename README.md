@@ -6,7 +6,7 @@ branch <b>3.1.5</b>: phpBB 3.1.5
 
 <b>Kto chce prispieť nech pošle kontakt pridám ho ako contributora.</b>
 
-<h3>Stav prekladu:</h3>
+<h3>Stav prekladu 3.1.5:</h3>
 
 1. Užívateľské rozhranie - dokončené
 
@@ -15,6 +15,16 @@ branch <b>3.1.5</b>: phpBB 3.1.5
 3. ACP - dokončené
 
 4. Sprievodca inštaláciou - dokončené
+
+<h3>Stav prekladu 3.2.0:</h3>
+
+1. Užívateľské rozhranie - začaté
+
+2. Šablóny e-mailovej komunikácie portálu s užívateľmi - nezačaté
+
+3. ACP - nezačaté
+
+4. Sprievodca inštaláciou - nezačaté
 
 - Prebieha korekcia textov, zapojte sa do skvalitňovania a vylepšovania prekladu...
 
