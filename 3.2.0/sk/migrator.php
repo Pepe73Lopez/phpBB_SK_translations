@@ -3,6 +3,7 @@
 *
 * This file is part of the phpBB Forum Software package.
 *
+* @authors phpBB3.sk, PepeLopez, Fonzi
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -37,40 +38,40 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'The config setting "%s" unexpectedly does not exist.',
+	'CONFIG_NOT_EXIST'					=> 'Konfiguračné nastavenia "%s" nenájdené.',
 
-	'GROUP_NOT_EXIST'					=> 'The group "%s" unexpectedly does not exist.',
+	'GROUP_NOT_EXIST'					=> 'Skupina "%s" nenájdená.',
 
-	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Apply dependencies of %s.',
-	'MIGRATION_DATA_DONE'				=> 'Installed Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installing Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_RUNNING'			=> 'Installing Data: %s.',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migration already effectively installed (skipped): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Something went wrong during the request and an exception was thrown. The changes made before the error occurred were reversed to the best of our abilities, but you should check the board for errors.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'The migration "%1$s" is not fulfillable, missing migration "%2$s".',
+	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Aplikovať závislosti z %s.',
+	'MIGRATION_DATA_DONE'				=> 'Inštalované dáta: %1$s; Čas: %2$.2f sek.',
+	'MIGRATION_DATA_IN_PROGRESS'			=> 'Inštalujem dáta: %1$s; Čas: %2$.2f sek.',
+	'MIGRATION_DATA_RUNNING'				=> 'Inštalácia dát: %s.',
+	'MIGRATION_EFFECTIVELY_INSTALLED'		=> 'Migrácia už je nainštalovaná (preskočené): %s',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'Chyba. Zmeny, ktoré boli uskutočnené pred výskytom chyby boli vrátené späť, aj napriek tomu je potrebné skontrolovať fórum.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'Migráciu "%1$s" nie je možné uskutočniť, chýba "%2$s".',
 	'MIGRATION_NOT_INSTALLED'			=> 'The migration "%s" is not installed.',
-	'MIGRATION_NOT_VALID'				=> '%s is not a valid migration.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Installed Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Installing Schema: %s.',
+	'MIGRATION_NOT_VALID'				=> '%s nie je platná migrácia.',
+	'MIGRATION_SCHEMA_DONE'				=> 'Nainštalovaná schéma: %1$s; Čas: %2$.2f sek.',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Inštalácia schémy: %s.',
 
-	'MIGRATION_REVERT_DATA_DONE'		=> 'Reverted Data: %1$s; Time: %2$.2f seconds',
+	'MIGRATION_REVERT_DATA_DONE'			=> 'Reverted Data: %1$s; Time: %2$.2f seconds',
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Reverting Data: %1$s; Time: %2$.2f seconds',
 	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Reverting Data: %s.',
 	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Reverted Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Reverting Schema: %s.',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'		=> 'Reverting Schema: %s.',
 
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migration is invalid. An if statement helper is missing a condition.',
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migration is invalid. An if statement helper is missing a valid call to a migration step.',
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migration is invalid. A custom callable function could not be called.',
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migration is invalid. An unknown migration tool type was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migration is invalid. An undefined migration tool was encountered.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migration is invalid. An undefined migration tool method was encountered.',
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Migrácia je neplatná. V príkaze if chýba podmienka.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Migrácia je neplatná. V príkaze if chýba platné volanie kroku migrácie.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'		=> 'Migrácia je neplatná. Vlastné volatelnou funkciu nemožno volať.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Migrácia je neplatná. Bol zistený neznámy typ migračného nástroja.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Migrácia je neplatná. Bol zistený nedefinovaný migračný nástroj.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Migrácia je neplatná. Bola zistená nedefinovaná metóda migračného nástroja.',
 
-	'MODULE_ERROR'						=> 'An error occurred while creating a module: %s',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'A required module info file is missing: %2$s',
-	'MODULE_NOT_EXIST'					=> 'A required module does not exist: %s',
+	'MODULE_ERROR'					=> 'Chyba počas vytvárania modulu: %s',
+	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Chýbajúci informačný súbor modulu: %2$s',
+	'MODULE_NOT_EXIST'				=> 'Potrebný modul nenájdený: %s',
 
-	'PERMISSION_NOT_EXIST'				=> 'The permission setting "%s" unexpectedly does not exist.',
+	'PERMISSION_NOT_EXIST'			=> 'Nastavenia oprávnení "%s" nenájdené.',
 
-	'ROLE_NOT_EXIST'					=> 'The permission role "%s" unexpectedly does not exist.',
+	'ROLE_NOT_EXIST'				=> 'Funkcia oprávnení "%s" nenájdená.',
 ));
