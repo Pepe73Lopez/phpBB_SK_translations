@@ -3,6 +3,7 @@
 *
 * This file is part of the phpBB Forum Software package.
 *
+* @authors phpBB3.sk, PepeLopez, Fonzi
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -37,28 +38,28 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'Q&amp;A',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'This question is a means of preventing automated form submissions by spambots.',
-	'CONFIRM_QUESTION_WRONG'	=> 'You have provided an invalid answer to the question.',
-	'CONFIRM_QUESTION_MISSING'	=> 'Questions for the captcha could not be retrieved. Please contact a board administrator.',
+	'CAPTCHA_QA'				=> 'Otázky&amp;Odpovede',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Odpoveď na túto otázku je potrebná pre odlíšenie skutočného užívateľa od automatizovaných pokusov registráciu.',
+	'CONFIRM_QUESTION_WRONG'		=> 'Nesprávna odpoveď.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Nebolo možné záskať otázky, kontaktujte administrátorov fóra.',
 
-	'QUESTION_ANSWERS'			=> 'Answers',
-	'ANSWERS_EXPLAIN'			=> 'Please enter valid answers to the question, one per line.',
-	'CONFIRM_QUESTION'			=> 'Question',
+	'QUESTION_ANSWERS'			=> 'Odpovede',
+	'ANSWERS_EXPLAIN'			=> 'Uveďte správne odpovede na otázku, jednu odpoveď na každý riadok.',
+	'CONFIRM_QUESTION'			=> 'Otázka',
 
-	'ANSWER'					=> 'Answer',
-	'EDIT_QUESTION'				=> 'Edit Question',
-	'QUESTIONS'					=> 'Questions',
-	'QUESTIONS_EXPLAIN'			=> 'For every form submission where you have enabled the Q&amp;A plugin, users will be asked one of the questions specified here. To use this plugin at least one question must be set in the default language. These questions should be easy for your target audience to answer but beyond the ability of a bot capable of running a Google™ search. Using a large and regularly changed set of questions will yield the best results. Enable the strict setting if your question relies on mixed case, punctuation or whitespace.',
-	'QUESTION_DELETED'			=> 'Question deleted',
-	'QUESTION_LANG'				=> 'Language',
-	'QUESTION_LANG_EXPLAIN'		=> 'The language this question and its answers are written in.',
-	'QUESTION_STRICT'			=> 'Strict check',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Enable to enforce mixed case, punctuation and whitespace.',
+	'ANSWER'					=> 'Odpoveď',
+	'EDIT_QUESTION'			=> 'Upraviť otázku',
+	'QUESTIONS'				=> 'Otázky',
+	'QUESTIONS_EXPLAIN'			=> 'V každom formulári, kde bol povolený plugin Otázky&amp;Odpovede, budú užívatelia opytovaný jednou z otázok, ktoré sú tu uvedené. K použitiu tohoto pluginu musí byť definovaná aspoň jedna otázka v predvolenom jazyku fóra. Tieto otázky by mali byť jednoduché, a nemali by byť vyhľadateľné botmi prostredníctvom vyhľadávačov ako napríklad Google™. Použítím viacerých otázok, ktoré budete pravidelne meniť dosiahnete lepší výsledok. Použite funkciu presnej zhody, pokiaľ chcete, aby boli kontrolované veľké písmená a medzery.',
+	'QUESTION_DELETED'			=> 'Otázka vymazaná',
+	'QUESTION_LANG'			=> 'Jazyk',
+	'QUESTION_LANG_EXPLAIN'		=> 'Jazyk, v ktorom sú otázky a odpovede napísané.',
+	'QUESTION_STRICT'			=> 'Úplná zhoda',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Pokiaľ povolíte kontrolu úplnej zhody, do úvahy sa bude brať aj veľkosť znakov a medzery.',
 
-	'QUESTION_TEXT'				=> 'Question',
-	'QUESTION_TEXT_EXPLAIN'		=> 'The question presented to the user.',
+	'QUESTION_TEXT'			=> 'Otázka',
+	'QUESTION_TEXT_EXPLAIN'		=> 'Otázka zobrazená užívateľovi.',
 
-	'QA_ERROR_MSG'				=> 'Please fill in all fields and enter at least one answer.',
-	'QA_LAST_QUESTION'			=> 'You cannot delete all questions while the plugin is active.',
+	'QA_ERROR_MSG'				=> 'Vyplňte všetky polia a vložte aspoň jednu odpoveď.',
+	'QA_LAST_QUESTION'			=> 'Nemôžete zmazať všetky odpovede, pokiaľ je zvolený plugin aktívny.',
 ));

@@ -46,28 +46,28 @@ $lang = array_merge($lang, array(
 	'ICON_ANNOUNCEMENT'		=> 'Oznámenie',
 	'ICON_STICKY'			=> 'Pripnutá téma',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'Fórum môžu prezerať iba registrovaný užívatelia, prosím prihláste sa.',
+	'LOGIN_NOTIFY_FORUM'	=> 'Fórum môžu prezerať iba registrovaný užívatelia, prihláste sa prosím .',
 
 	'MARK_TOPICS_READ'		=> 'Označiť fórum ako prečítané',
 
-	'NEW_POSTS_HOT'		=> 'New posts [ Popular ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'You do not have the required permissions to read topics within this forum.',
-	'NO_UNREAD_POSTS_HOT'	=> 'No unread posts [ Popular ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'No unread posts [ Locked ]',
+	'NEW_POSTS_HOT'		=> 'Nové príspevky [ Obľúbené ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> 'Nové príspevky [ Zamknuté ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> 'Žiadne nové príspevky [ Obľúbené ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> 'Žiadne nové príspevky [ Zamknuté ]',	// Not used anymore
+	'NO_READ_ACCESS'		=> 'Na prezeranie príspevkov nemáte potrebné oprávnenia.',
+	'NO_UNREAD_POSTS_HOT'	=> 'Žiadne neprečítané príspevky [ Obľúbené ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Žiadne neprečítané príspevky [ Zamknuté ]',
 
-	'POST_FORUM_LOCKED'		=> 'Forum is locked',
+	'POST_FORUM_LOCKED'		=> 'Fórum je zamknuté',
 
-	'TOPICS_MARKED'		=> 'The topics for this forum have now been marked read.',
+	'TOPICS_MARKED'		=> 'Témy tohoto fóra boli označené ako prečítané.',
 
-	'UNREAD_POSTS_HOT'		=> 'Unread posts [ Popular ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Unread posts [ Locked ]',
+	'UNREAD_POSTS_HOT'		=> 'Neprečítané príspevky [ Obľúbené ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Neprečítané príspevky [ Zamknuté ]',
 
-	'VIEW_FORUM'			=> 'View forum',
+	'VIEW_FORUM'			=> 'Zobraziť fórum',
 	'VIEW_FORUM_TOPICS'		=> array(
-          1 => '%d téma',
+		1 => '%d téma',
 		2 => '%d témy',
 		3 => '%d tém',
 	),
